@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /modifier-mon-site.html
+
+Sitemap: https://www.cbproducao.com/sitemap.xml
