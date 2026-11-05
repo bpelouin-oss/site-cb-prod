@@ -44,9 +44,9 @@ CB.textes = {
   "pt": "A nossa fábrica"
  },
  "menu.08": {
-  "fr": "Revendeurs",
-  "en": "Trade",
-  "pt": "Revendedores"
+  "fr": "Professionnels",
+  "en": "Professionals",
+  "pt": "Profissionais"
  },
  "menu.09": {
   "fr": "FAQ",
@@ -84,14 +84,14 @@ CB.textes = {
   "pt": "Fabricante industrial · Mafra, Portugal"
  },
  "accueil.03": {
-  "fr": "Plans de travail sur mesure, *la noblesse* de la pierre",
-  "en": "Bespoke worktops, *the nobility* of stone",
-  "pt": "Bancadas por medida, *a nobreza* da pedra"
+  "fr": "Votre partenaire en fabrication *sur mesure*",
+  "en": "Your *bespoke* manufacturing partner",
+  "pt": "O seu parceiro de fabrico *por medida*"
  },
  "accueil.04": {
-  "fr": "Des plus belles carrières de marbre, granit et quartzite jusqu'aux surfaces minérales de nouvelle génération : nous façonnons sur mesure chaque plan de travail dans notre atelier de Mafra, et nous le posons chez vous, en France comme au Portugal.",
-  "en": "From the finest marble, granite and quartzite quarries to the latest generation of mineral surfaces: we craft every worktop to measure in our Mafra workshop, then fit it in your home, in France and Portugal alike.",
-  "pt": "Das mais belas pedreiras de mármore, granito e quartzito às superfícies minerais de nova geração: trabalhamos cada bancada por medida na nossa oficina em Mafra e instalamo-la em sua casa, em Portugal e em França."
+  "fr": "De la matière première à la livraison : marbre, granit, quartzite, quartz, céramique et surfaces minérales de nouvelle génération. Dans notre usine de Mafra, nous transformons et façonnons vos plans de travail, éléments de salle de bains, habillages et escaliers à partir de vos plans, puis nous les livrons en France, au Portugal et à l'international.",
+  "en": "From raw material to delivery: marble, granite, quartzite, quartz, ceramic and new-generation mineral surfaces. In our Mafra factory we process and shape worktops, bathroom elements, cladding and stairs from your drawings, then deliver them to France, Portugal and worldwide.",
+  "pt": "Da matéria-prima à entrega: mármore, granito, quartzito, quartzo, cerâmica e superfícies minerais de nova geração. Na nossa fábrica de Mafra transformamos e trabalhamos bancadas, elementos de casa de banho, revestimentos e escadas a partir dos seus desenhos, e entregamo-los em Portugal, em França e a nível internacional."
  },
  "accueil.05": {
   "fr": "Demander un devis gratuit ",
@@ -149,9 +149,9 @@ CB.textes = {
   "pt": "PT · FR"
  },
  "chiffres.08": {
-  "fr": "Livraison & pose",
-  "en": "Delivery & fitting",
-  "pt": "Entrega & instalação"
+  "fr": "Livraison & export",
+  "en": "Delivery & export",
+  "pt": "Entrega & exportação"
  },
  "familles.01": {
   "fr": "Notre sélection",
@@ -359,9 +359,9 @@ CB.textes = {
   "pt": "Na nossa fábrica de Mafra, transformamos as mais belas pedras naturais e materiais técnicos em bancadas por medida. Bancadas, lavatórios integrados, frentes de cozinha, revestimentos de parede: cada peça é pensada para durar e valorizar o seu espaço."
  },
  "signature.07": {
-  "fr": "Notre savoir-faire conjugue la précision de nos outils CNC et l'exigence artisanale de nos équipes. Nous livrons et posons en France et au Portugal.",
-  "en": "Our expertise combines the precision of our CNC machinery with the craftsmanship of our teams. We deliver and install in France and Portugal.",
-  "pt": "O nosso saber-fazer alia a precisão das máquinas CNC à exigência artesanal das nossas equipas. Entregamos e instalamos em Portugal e em França."
+  "fr": "Notre savoir-faire conjugue la précision de nos outils CNC et l'exigence artisanale de nos équipes. Nous fabriquons d'après vos plans et livrons en France, au Portugal et à l'international.",
+  "en": "Our expertise combines the precision of our CNC tools with the craftsmanship of our teams. We manufacture to your drawings and deliver to France, Portugal and worldwide.",
+  "pt": "O nosso saber-fazer alia a precisão das nossas máquinas CNC ao rigor artesanal das nossas equipas. Fabricamos a partir dos seus desenhos e entregamos em Portugal, em França e a nível internacional."
  },
  "signature.08": {
   "fr": "Cuisine",
@@ -424,9 +424,9 @@ CB.textes = {
   "pt": "Que material escolher para *a sua utilização*?"
  },
  "guide.03": {
-  "fr": "Chaque matière a son tempérament. Ce comparatif vous aide à cibler celle qui correspond à votre façon de vivre votre cuisine ou votre salle de bains ; nos conseillers affinent ensuite avec vous.",
-  "en": "Every material has its own temperament. This comparison helps you find the one that matches how you use your kitchen or bathroom; our advisers will then refine the choice with you.",
-  "pt": "Cada material tem o seu temperamento. Este comparativo ajuda-o a identificar aquele que corresponde à forma como vive a sua cozinha ou a sua casa de banho; os nossos consultores afinam depois a escolha consigo."
+  "fr": "Chaque matière a son tempérament. Ce comparatif vous aide, vous et vos clients, à cibler celle qui correspond à l'usage prévu en cuisine ou en salle de bains ; notre service technique affine ensuite le choix avec vous.",
+  "en": "Every material has its own character. This comparison helps you and your clients pick the one that suits the intended use in a kitchen or bathroom; our technical team then fine-tunes the choice with you.",
+  "pt": "Cada material tem o seu temperamento. Esta comparação ajuda-o, a si e aos seus clientes, a escolher o que corresponde à utilização prevista na cozinha ou na casa de banho; a nossa equipa técnica afina depois a escolha consigo."
  },
  "guide.04": {
   "fr": "Comparatif indicatif des matériaux : résistance aux rayures, à la chaleur, aux taches, facilité d'entretien et usage idéal. Notes sur 5.",
@@ -514,14 +514,14 @@ CB.textes = {
   "pt": "01"
  },
  "methode.04": {
-  "fr": "Conseiller",
-  "en": "Advise",
-  "pt": "Aconselhar"
+  "fr": "Étudier",
+  "en": "Study",
+  "pt": "Estudar"
  },
  "methode.05": {
-  "fr": "Écoute attentive de vos besoins et de votre budget. Nos spécialistes vous guident vers le matériau et la finition les plus adaptés à votre espace et à votre mode de vie.",
-  "en": "We listen carefully to your needs and your budget. Our specialists guide you towards the material and finish best suited to your space and your way of life.",
-  "pt": "Ouvimos atentamente as suas necessidades e o seu orçamento. Os nossos especialistas orientam-no para o material e o acabamento mais adequados ao seu espaço e ao seu estilo de vida."
+  "fr": "Vous nous transmettez vos plans, dimensions et fichiers techniques. Notre service technique les étudie, vérifie la faisabilité et vous conseille sur le matériau et la finition.",
+  "en": "You send us your drawings, dimensions and technical files. Our technical team studies them, checks feasibility and advises you on material and finish.",
+  "pt": "Envia-nos os seus desenhos, dimensões e ficheiros técnicos. A nossa equipa técnica estuda-os, verifica a viabilidade e aconselha-o sobre o material e o acabamento."
  },
  "methode.06": {
   "fr": "02",
@@ -529,14 +529,14 @@ CB.textes = {
   "pt": "02"
  },
  "methode.07": {
-  "fr": "Mesurer",
-  "en": "Measure",
-  "pt": "Medir"
+  "fr": "Approvisionner",
+  "en": "Source",
+  "pt": "Aprovisionar"
  },
  "methode.08": {
-  "fr": "Nos métreurs se déplacent sur site pour une prise de cotes précise. Chaque détail (découpe, angle, passage de plaque) est relevé pour un ajustement parfait.",
-  "en": "Our surveyors visit your home to take precise measurements. Every detail (cut-outs, angles, hob openings) is recorded for a perfect fit.",
-  "pt": "Os nossos medidores deslocam-se ao local para um levantamento rigoroso das medidas. Cada detalhe (recorte, ângulo, abertura para a placa) é registado para um ajuste perfeito."
+  "fr": "Nous sélectionnons les dalles auprès de nos fournisseurs internationaux, parmi les plus grandes marques de matériaux, selon le coloris, la finition et l'épaisseur demandés.",
+  "en": "We select the slabs from our international suppliers, among the leading material brands, according to the colour, finish and thickness required.",
+  "pt": "Selecionamos as chapas junto dos nossos fornecedores internacionais, entre as maiores marcas de materiais, de acordo com a cor, o acabamento e a espessura pedidos."
  },
  "methode.09": {
   "fr": "03",
@@ -559,14 +559,14 @@ CB.textes = {
   "pt": "04"
  },
  "methode.13": {
-  "fr": "Installer",
-  "en": "Install",
-  "pt": "Instalar"
+  "fr": "Contrôler & livrer",
+  "en": "Inspect & deliver",
+  "pt": "Controlar & entregar"
  },
  "methode.14": {
-  "fr": "Nos équipes de pose interviennent avec soin et ponctualité. Chaque surface est posée avec rigueur, et nos conseils d'entretien vous sont transmis avant le départ.",
-  "en": "Our fitting teams work with care and punctuality. Every surface is installed with precision, and we share our care advice with you before we leave.",
-  "pt": "As nossas equipas de instalação intervêm com cuidado e pontualidade. Cada superfície é instalada com rigor e, antes de partirmos, transmitimos-lhe os nossos conselhos de manutenção."
+  "fr": "Chaque pièce est contrôlée avant de quitter l'usine, puis emballée et livrée en France, au Portugal ou à l'international. La pose reste assurée par vous ou par vos partenaires.",
+  "en": "Every piece is inspected before it leaves the factory, then packed and delivered to France, Portugal or worldwide. Installation remains with you or your partners.",
+  "pt": "Cada peça é controlada antes de sair da fábrica, depois embalada e entregue em Portugal, em França ou a nível internacional. A instalação fica a cargo de si ou dos seus parceiros."
  },
  "usine.01.alt": {
   "fr": "Atelier de façonnage",
@@ -669,14 +669,14 @@ CB.textes = {
   "pt": "Cada pedido de orçamento é analisado por um especialista, que o contacta se necessário antes de elaborar um orçamento rigoroso."
  },
  "engagements.05": {
-  "fr": "Prise de cotes sur site",
-  "en": "On-site survey",
-  "pt": "Medição no local"
+  "fr": "Fabrication sur vos plans",
+  "en": "Made to your drawings",
+  "pt": "Fabrico segundo os seus desenhos"
  },
  "engagements.06": {
-  "fr": "Nos métreurs relèvent chaque découpe, angle et passage de plaque pour un ajustement parfait à la pose.",
-  "en": "Our surveyors record every cut-out, angle and hob opening for a perfect fit on installation.",
-  "pt": "Os nossos medidores registam cada recorte, ângulo e abertura para a placa, para um ajuste perfeito na instalação."
+  "fr": "Nous fabriquons à partir des plans, dimensions et informations techniques que vous nous transmettez, et nous vérifions chaque cote avant la découpe.",
+  "en": "We manufacture from the drawings, dimensions and technical information you send us, and we check every dimension before cutting.",
+  "pt": "Fabricamos a partir dos desenhos, dimensões e informações técnicas que nos envia, e verificamos cada cota antes do corte."
  },
  "engagements.07": {
   "fr": "Précision CNC",
@@ -689,14 +689,14 @@ CB.textes = {
   "pt": "Corte digital com precisão de uma décima de milímetro, seguido de acabamento manual das arestas e dos recortes na nossa oficina."
  },
  "engagements.09": {
-  "fr": "Pose par nos équipes",
-  "en": "Fitted by our own teams",
-  "pt": "Instalação pelas nossas equipas"
+  "fr": "Contrôle qualité & livraison",
+  "en": "Quality control & delivery",
+  "pt": "Controlo de qualidade & entrega"
  },
  "engagements.10": {
-  "fr": "Installation soignée en France et au Portugal, avec transmission des conseils d'entretien adaptés à votre matériau.",
-  "en": "Careful installation in France and Portugal, with care advice tailored to your material.",
-  "pt": "Instalação cuidada em Portugal e em França, com conselhos de manutenção adaptados ao seu material."
+  "fr": "Chaque pièce est contrôlée et protégée avant l'expédition, puis livrée en France, au Portugal ou à l'international.",
+  "en": "Every piece is inspected and protected before shipping, then delivered to France, Portugal or worldwide.",
+  "pt": "Cada peça é controlada e protegida antes da expedição, e entregue em Portugal, em França ou a nível internacional."
  },
  "engagements.11": {
   "fr": "Garanties fabricants",
@@ -914,24 +914,24 @@ CB.textes = {
   "pt": "Ver as cores →"
  },
  "revendeurs.01": {
-  "fr": "Professionnels & distributeurs",
-  "en": "Trade & distributors",
-  "pt": "Profissionais & distribuidores"
+  "fr": "Professionnels & partenaires",
+  "en": "Professionals & partners",
+  "pt": "Profissionais & parceiros"
  },
  "revendeurs.02": {
-  "fr": "Rejoignez notre réseau de *partenaires*",
-  "en": "Join our *partner* network",
-  "pt": "Junte-se à nossa rede de *parceiros*"
+  "fr": "Votre partenaire de *fabrication*",
+  "en": "Your *manufacturing* partner",
+  "pt": "O seu parceiro de *fabrico*"
  },
  "revendeurs.03": {
-  "fr": "Cuisinistes, architectes, artisans, distributeurs : bénéficiez de conditions préférentielles, d'un catalogue étendu et d'un interlocuteur dédié pour tous vos chantiers.",
-  "en": "Kitchen specialists, architects, craftsmen and distributors: enjoy preferential terms, an extended catalogue and a dedicated contact for all your projects.",
-  "pt": "Fabricantes de cozinhas, arquitetos, artesãos, distribuidores: beneficie de condições preferenciais, de um catálogo alargado e de um interlocutor dedicado para todas as suas obras."
+  "fr": "Nous fabriquons pour les sociétés du groupe CB Surfaces (CB Surfaces, Easy Plan, Kitchenfab) et pour les professionnels indépendants : cuisinistes, marbriers, architectes, agenceurs, distributeurs et entreprises spécialisées. Conditions adaptées à vos volumes, catalogue étendu et interlocuteur dédié.",
+  "en": "We manufacture for the CB Surfaces group companies (CB Surfaces, Easy Plan, Kitchenfab) and for independent professionals: kitchen specialists, stonemasons, architects, interior fitters, distributors and specialist companies. Terms adapted to your volumes, an extended catalogue and a dedicated contact.",
+  "pt": "Fabricamos para as empresas do grupo CB Surfaces (CB Surfaces, Easy Plan, Kitchenfab) e para profissionais independentes: fabricantes de cozinhas, marmoristas, arquitetos, empresas de interiores, distribuidores e empresas especializadas. Condições adaptadas aos seus volumes, catálogo alargado e interlocutor dedicado."
  },
  "revendeurs.04": {
-  "fr": "Devenir partenaire revendeur ",
-  "en": "Become a trade partner ",
-  "pt": "Tornar-se parceiro revendedor "
+  "fr": "Devenir client professionnel ",
+  "en": "Become a trade customer ",
+  "pt": "Tornar-se cliente profissional "
  },
  "revendeurs.05": {
   "fr": "Déjà partenaire ?",
@@ -1019,19 +1019,19 @@ CB.textes = {
   "pt": "Análise por um especialista, que o contacta, se necessário"
  },
  "devis.05": {
-  "fr": "Prise de cotes sur site avant fabrication",
-  "en": "On-site survey before manufacturing",
-  "pt": "Medição no local antes do fabrico"
+  "fr": "Fabrication d'après vos plans et vos cotes",
+  "en": "Made to your drawings and dimensions",
+  "pt": "Fabrico segundo os seus desenhos e cotas"
  },
  "devis.06": {
-  "fr": "Fourniture seule ou pose par nos équipes",
-  "en": "Supply only, or fitting by our own teams",
-  "pt": "Só fornecimento ou instalação pelas nossas equipas"
+  "fr": "Livraison en France, au Portugal et à l'international",
+  "en": "Delivery to France, Portugal and worldwide",
+  "pt": "Entrega em Portugal, em França e a nível internacional"
  },
  "devis.07": {
-  "fr": "Vous pourrez joindre plans et photos à l'e-mail",
-  "en": "You can attach plans and photos to the email",
-  "pt": "Poderá anexar plantas e fotografias ao e-mail"
+  "fr": "Plans et fichiers techniques : vous pourrez nous les envoyer par e-mail",
+  "en": "Drawings and technical files: you can send them to us by email",
+  "pt": "Desenhos e ficheiros técnicos: poderá enviá-los por e-mail"
  },
  "devis.08": {
   "fr": "Vous préférez en parler ?",
@@ -1244,29 +1244,29 @@ CB.textes = {
   "pt": "Velvet aveludado"
  },
  "devis.50": {
-  "fr": "Pose souhaitée",
-  "en": "Installation",
-  "pt": "Instalação pretendida"
+  "fr": "Livraison souhaitée",
+  "en": "Delivery to",
+  "pt": "Entrega pretendida"
  },
  "devis.51.name": {
-  "fr": "Pose",
-  "en": "Installation",
-  "pt": "Instalação"
+  "fr": "Livraison",
+  "en": "Delivery",
+  "pt": "Entrega"
  },
  "devis.52": {
-  "fr": "Avec pose incluse",
-  "en": "Fitting included",
-  "pt": "Com instalação incluída"
+  "fr": "France",
+  "en": "France",
+  "pt": "França"
  },
  "devis.53": {
-  "fr": "Fourniture seule",
-  "en": "Supply only",
-  "pt": "Só fornecimento"
+  "fr": "Portugal",
+  "en": "Portugal",
+  "pt": "Portugal"
  },
  "devis.54": {
-  "fr": "À définir",
-  "en": "To be defined",
-  "pt": "A definir"
+  "fr": "International / à définir",
+  "en": "International / to be confirmed",
+  "pt": "Internacional / a definir"
  },
  "devis.55": {
   "fr": "Description du projet ",
@@ -1274,9 +1274,9 @@ CB.textes = {
   "pt": "Descrição do projeto "
  },
  "devis.56.placeholder": {
-  "fr": "Type d'espace, couleur ou style recherché, découpes (évier, plaque), contraintes particulières…",
-  "en": "Type of room, colour or style you have in mind, cut-outs (sink, hob), any particular constraints…",
-  "pt": "Tipo de espaço, cor ou estilo pretendido, recortes (lava-loiça, placa), condicionantes específicas…"
+  "fr": "Type de pièces, quantités, épaisseur, découpes (évier, plaque), délai souhaité, contraintes particulières…",
+  "en": "Type of pieces, quantities, thickness, cut-outs (sink, hob), desired lead time, specific constraints…",
+  "pt": "Tipo de peças, quantidades, espessura, recortes (lava-loiça, placa), prazo pretendido, condicionantes…"
  },
  "devis.57.name": {
   "fr": "Description",
@@ -1284,9 +1284,9 @@ CB.textes = {
   "pt": "Descrição"
  },
  "devis.58": {
-  "fr": "Quelques lignes suffisent. Plans et photos pourront être joints à l'e-mail.",
-  "en": "A few lines are enough. You can attach plans and photos to the email.",
-  "pt": "Bastam algumas linhas. Poderá anexar plantas e fotografias ao e-mail."
+  "fr": "Quelques lignes suffisent. Vous pourrez ensuite nous envoyer vos plans et fichiers techniques par e-mail.",
+  "en": "A few lines are enough. You can then send us your drawings and technical files by email.",
+  "pt": "Bastam algumas linhas. Depois, poderá enviar-nos os seus desenhos e ficheiros técnicos por e-mail."
  },
  "devis.59": {
   "fr": "Comment vous recontacter ?",
@@ -1349,9 +1349,9 @@ CB.textes = {
   "pt": "Empresa"
  },
  "devis.71.placeholder": {
-  "fr": "Optionnel, pour les pros",
-  "en": "Optional, for trade customers",
-  "pt": "Opcional, para profissionais"
+  "fr": "Nom de votre entreprise",
+  "en": "Your company name",
+  "pt": "Nome da sua empresa"
  },
  "devis.72.name": {
   "fr": "Société",
@@ -1364,9 +1364,9 @@ CB.textes = {
   "pt": "Último passo: envie o e-mail"
  },
  "devis.74": {
-  "fr": "Votre messagerie devrait s'ouvrir avec la demande pré-remplie : il ne vous reste qu'à l'envoyer, en y joignant plans ou photos si vous le souhaitez. Rien ne s'est ouvert ? Utilisez Gmail ou Outlook ci-dessous, ou copiez la demande et envoyez-la à ",
-  "en": "Your email app should open with the request already filled in: all that's left is to send it, attaching any plans or photos you wish. Nothing opened? Use Gmail or Outlook below, or copy the request and send it to ",
-  "pt": "O seu programa de e-mail deverá abrir-se com o pedido já preenchido: só tem de o enviar, anexando plantas ou fotografias, se desejar. Não se abriu nada? Use o Gmail ou o Outlook abaixo, ou copie o pedido e envie-o para "
+  "fr": "Votre messagerie devrait s'ouvrir avec la demande pré-remplie : il ne vous reste qu'à l'envoyer, en y joignant plans ou fichiers techniques si vous le souhaitez. Rien ne s'est ouvert ? Utilisez Gmail ou Outlook ci-dessous, ou copiez la demande et envoyez-la à ",
+  "en": "Your email app should open with the request already filled in: all that's left is to send it, attaching any drawings or technical files you wish. Nothing opened? Use Gmail or Outlook below, or copy the request and send it to ",
+  "pt": "O seu programa de e-mail deverá abrir-se com o pedido já preenchido: só tem de o enviar, anexando desenhos ou ficheiros técnicos, se desejar. Não se abriu nada? Use o Gmail ou o Outlook abaixo, ou copie o pedido e envie-o para "
  },
  "devis.75": {
   "fr": "direction@cbproducao.com",
@@ -1574,9 +1574,9 @@ CB.textes = {
   "pt": "CB*.*PROD"
  },
  "pied.02": {
-  "fr": "Fabricant portugais de plans de travail sur mesure, société de production du groupe CB Surfaces. Usine à Igreja Nova, Mafra. Livraison et pose en France et au Portugal.",
-  "en": "Portuguese manufacturer of bespoke worktops, the production company of the CB Surfaces group. Factory in Igreja Nova, Mafra. Delivery and fitting in France and Portugal.",
-  "pt": "Fabricante português de bancadas por medida, empresa de produção do grupo CB Surfaces. Fábrica em Igreja Nova, Mafra. Entrega e instalação em Portugal e em França."
+  "fr": "Fabricant portugais de pierres naturelles et matériaux techniques sur mesure, partenaire de fabrication du groupe CB Surfaces. Usine à Igreja Nova, Mafra. Livraison en France, au Portugal et à l'international.",
+  "en": "Portuguese manufacturer of bespoke natural stone and technical surfaces, the manufacturing partner of the CB Surfaces group. Factory in Igreja Nova, Mafra. Delivery to France, Portugal and worldwide.",
+  "pt": "Fabricante português de pedra natural e materiais técnicos por medida, parceiro de fabrico do grupo CB Surfaces. Fábrica em Igreja Nova, Mafra. Entrega em Portugal, em França e a nível internacional."
  },
  "pied.03": {
   "fr": "Devis gratuit sous 48 h ouvrées",
@@ -1739,24 +1739,24 @@ CB.textes = {
   "pt": "Ficha do fabricante"
  },
  "seo.titre": {
-  "fr": "Plan de travail sur mesure en pierre, quartz, granit | CB Prod",
-  "en": "Bespoke stone, quartz & granite worktops | CB Prod",
-  "pt": "Bancadas por medida em pedra, quartzo e granito | CB Prod"
+  "fr": "Fabricant de plans de travail sur mesure en pierre et quartz | CB Prod",
+  "en": "Bespoke stone & quartz worktop manufacturer | CB Prod",
+  "pt": "Fabricante de bancadas por medida em pedra e quartzo | CB Prod"
  },
  "seo.description": {
-  "fr": "Plans de travail sur mesure en pierre naturelle, granit, quartz et céramique. Usine à Mafra, pose en France et au Portugal. Devis gratuit sous 48 h ouvrées.",
-  "en": "Bespoke worktops in natural stone, granite, quartz and ceramic, made in our factory near Lisbon and fitted in France and Portugal. Free quote within 48 working hours.",
-  "pt": "Bancadas por medida em pedra natural, granito, quartzo e cerâmica. Fábrica em Mafra, perto de Lisboa, instalação em Portugal e França. Orçamento grátis em 48 h úteis."
+  "fr": "Fabrication sur mesure en pierre naturelle, quartz et céramique pour les professionnels : plans de travail, salles de bains, escaliers. Usine à Mafra, livraison en Europe.",
+  "en": "Bespoke fabrication in natural stone, quartz and ceramic for professionals: worktops, bathrooms, stairs. Factory near Lisbon, delivery across Europe and beyond.",
+  "pt": "Fabrico por medida em pedra natural, quartzo e cerâmica para profissionais: bancadas, casas de banho, escadas. Fábrica em Mafra, entrega em Portugal, França e no estrangeiro."
  },
  "seo.partage-titre": {
-  "fr": "CB Prod · Plans de travail sur mesure",
-  "en": "CB Prod · Bespoke stone worktops",
-  "pt": "CB Prod · Bancadas por medida"
+  "fr": "CB Prod · Fabrication sur mesure, de la matière à la livraison",
+  "en": "CB Prod · Bespoke fabrication, from raw material to delivery",
+  "pt": "CB Prod · Fabrico por medida, da matéria-prima à entrega"
  },
  "seo.partage-description": {
-  "fr": "De la carrière à votre cuisine : plans de travail sur mesure façonnés dans notre usine de Mafra. Pierre naturelle, quartz, céramique, Corian® et Minéralis.",
-  "en": "From quarry to kitchen: bespoke worktops crafted in our Mafra factory. Natural stone, quartz, ceramic, Corian® and Minéralis.",
-  "pt": "Da pedreira à sua cozinha: bancadas por medida trabalhadas na nossa fábrica em Mafra. Pedra natural, quartzo, cerâmica, Corian® e Minéralis."
+  "fr": "Votre partenaire en fabrication sur mesure, de la matière première à la livraison : pierre naturelle, quartz, céramique, Corian® et Minéralis façonnés dans notre usine de Mafra.",
+  "en": "Your bespoke manufacturing partner, from raw material to delivery: natural stone, quartz, ceramic, Corian® and Minéralis shaped in our Mafra factory.",
+  "pt": "O seu parceiro de fabrico por medida, da matéria-prima à entrega: pedra natural, quartzo, cerâmica, Corian® e Minéralis trabalhados na nossa fábrica de Mafra."
  },
  "ui.colorsAvail": {
   "fr": "Coloris disponibles",
@@ -2064,9 +2064,9 @@ CB.textes = {
   "pt": "Pedido enviado"
  },
  "ui.sentQuote": {
-  "fr": "Merci ! Votre demande est bien arrivée chez CB Prod. Un accusé de réception vient de vous être envoyé par e-mail (pensez à vérifier vos courriers indésirables). Un expert vous répond sous 48 heures ouvrées. Pour ajouter des plans ou des photos, répondez simplement à cet e-mail.",
-  "en": "Thank you! Your request has reached CB Prod. An acknowledgement has just been emailed to you (please check your spam folder). An expert will reply within 48 working hours. To add plans or photos, simply reply to that email.",
-  "pt": "Obrigado! O seu pedido chegou à CB Prod. Acabámos de lhe enviar uma confirmação por e-mail (verifique também o correio não desejado). Um especialista responde-lhe em 48 horas úteis. Para juntar plantas ou fotografias, basta responder a esse e-mail."
+  "fr": "Merci ! Votre demande est bien arrivée chez CB Prod. Un accusé de réception vient de vous être envoyé par e-mail (pensez à vérifier vos courriers indésirables). Un expert vous répond sous 48 heures ouvrées. Pour nous envoyer vos plans ou fichiers techniques, répondez simplement à cet e-mail.",
+  "en": "Thank you! Your request has reached CB Prod. An acknowledgement has just been emailed to you (please check your spam folder). An expert will reply within 48 working hours. To send us drawings or technical files, simply reply to that email.",
+  "pt": "Obrigado! O seu pedido chegou à CB Prod. Acabámos de lhe enviar uma confirmação por e-mail (verifique também o correio não desejado). Um especialista responde-lhe em 48 horas úteis. Para nos enviar desenhos ou ficheiros técnicos, basta responder a esse e-mail."
  },
  "ui.sentContact": {
   "fr": "Merci ! Votre message est bien arrivé chez CB Prod. Un accusé de réception vient de vous être envoyé par e-mail, et nous vous répondons rapidement, du lundi au vendredi.",

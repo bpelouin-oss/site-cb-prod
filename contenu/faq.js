@@ -16,14 +16,14 @@ CB.faq = [
  },
  {
   "question": {
-   "fr": "Livrez-vous et posez-vous en France ?",
-   "en": "Do you deliver and install in France?",
-   "pt": "Fazem entrega e instalação em Portugal e em França?"
+   "fr": "Livrez-vous en France et à l'international ?",
+   "en": "Do you deliver to France and abroad?",
+   "pt": "Entregam em França e no estrangeiro?"
   },
   "reponse": {
-   "fr": "Oui. Nous fabriquons dans notre usine de Mafra, au Portugal, puis nous livrons et posons en France comme au Portugal, par nos propres équipes. La fourniture seule est également possible si vous avez votre poseur.",
-   "en": "Yes. We manufacture in our factory in Mafra, Portugal, then deliver and install in both France and Portugal with our own teams. Supply only is also available if you have your own fitter.",
-   "pt": "Sim. Fabricamos na nossa fábrica em Mafra e fazemos a entrega e a instalação em Portugal e em França, com as nossas próprias equipas. Se tiver o seu próprio instalador, também pode optar apenas pelo fornecimento."
+   "fr": "Oui. Nous fabriquons dans notre usine de Mafra, au Portugal, puis nous livrons en France, au Portugal et à l'international. CB Prod ne réalise pas la pose : elle reste assurée par vous ou par vos partenaires.",
+   "en": "Yes. We manufacture in our factory in Mafra, Portugal, then deliver to France, Portugal and worldwide. CB Prod does not install: installation remains with you or your partners.",
+   "pt": "Sim. Fabricamos na nossa fábrica de Mafra, em Portugal, e entregamos em Portugal, em França e a nível internacional. A CB Prod não faz instalação: esta fica a cargo de si ou dos seus parceiros."
   }
  },
  {
@@ -76,14 +76,14 @@ CB.faq = [
  },
  {
   "question": {
-   "fr": "Comment se déroule la prise de cotes ?",
-   "en": "How does the survey work?",
-   "pt": "Como funciona a medição?"
+   "fr": "Faites-vous la prise de mesures et la pose ?",
+   "en": "Do you take site measurements and install?",
+   "pt": "Fazem a medição em obra e a instalação?"
   },
   "reponse": {
-   "fr": "Nos métreurs se déplacent sur site pour relever précisément chaque découpe, angle et passage de plaque. La fabrication démarre sur la base de ce relevé, ce qui garantit un ajustement parfait à la pose.",
-   "en": "Our surveyors visit your home to record every cut-out, angle and hob opening precisely. Manufacturing begins on the basis of this survey, which guarantees a perfect fit on installation.",
-   "pt": "Os nossos medidores deslocam-se ao local para registar com precisão cada recorte, ângulo e abertura para a placa. O fabrico começa com base nesse levantamento, o que garante um ajuste perfeito na instalação."
+   "fr": "Non. CB Prod intervient exclusivement dans la fabrication sur mesure et la livraison. Nous fabriquons à partir des plans, dimensions et informations techniques que vous nous communiquez ; la prise de mesures sur chantier et la pose restent à votre charge ou à celle de vos partenaires.\n\nNotre service technique étudie vos plans et vos fichiers avant la fabrication et vous signale tout point à vérifier.",
+   "en": "No. CB Prod works exclusively on bespoke fabrication and delivery. We manufacture from the drawings, dimensions and technical information you provide; site measurement and installation remain the responsibility of you or your partners.\n\nOur technical team reviews your drawings and files before production and flags anything that needs checking.",
+   "pt": "Não. A CB Prod dedica-se exclusivamente ao fabrico por medida e à entrega. Fabricamos a partir dos desenhos, dimensões e informações técnicas que nos envia; a medição em obra e a instalação ficam a cargo de si ou dos seus parceiros.\n\nA nossa equipa técnica estuda os seus desenhos e ficheiros antes do fabrico e assinala qualquer ponto a verificar."
   }
  },
  {
@@ -93,21 +93,21 @@ CB.faq = [
    "pt": "Que garantias têm os materiais?"
   },
   "reponse": {
-   "fr": "Nous travaillons avec des marques qui garantissent leurs surfaces : jusqu'à 25 ans selon les gammes, et 20 ans sur Minéralis. Nous vous transmettons les conseils d'entretien adaptés à votre matériau lors de la pose.",
-   "en": "We work with brands that stand behind their surfaces: up to 25 years depending on the range, and 20 years on Minéralis. On installation, we give you care advice tailored to your material.",
-   "pt": "Trabalhamos com marcas que garantem as suas superfícies: até 25 anos consoante a gama, e 20 anos no Minéralis. Na instalação, transmitimos-lhe os conselhos de manutenção adequados ao seu material."
+   "fr": "Nous travaillons avec des marques qui garantissent leurs surfaces : jusqu'à 25 ans selon les gammes, et 20 ans sur Minéralis. Nous vous transmettons la documentation technique et les conseils d'entretien de chaque matériau.",
+   "en": "We work with brands that guarantee their surfaces: up to 25 years depending on the range, and 20 years on Minéralis. We provide the technical documentation and care advice for each material.",
+   "pt": "Trabalhamos com marcas que garantem as suas superfícies: até 25 anos consoante as gamas, e 20 anos no Minéralis. Fornecemos a documentação técnica e os conselhos de manutenção de cada material."
   }
  },
  {
   "question": {
-   "fr": "Travaillez-vous avec les professionnels ?",
-   "en": "Do you work with trade professionals?",
-   "pt": "Trabalham com profissionais?"
+   "fr": "Pour qui fabriquez-vous ?",
+   "en": "Who do you manufacture for?",
+   "pt": "Para quem fabricam?"
   },
   "reponse": {
-   "fr": "Oui. Cuisinistes, architectes, artisans et distributeurs bénéficient de tarifs préférentiels, d'un catalogue étendu et d'un interlocuteur dédié. Rendez-vous dans l'espace revendeur pour rejoindre notre réseau.",
-   "en": "Yes. Kitchen specialists, architects, craftsmen and distributors benefit from preferential pricing, an extended catalogue and a dedicated contact. Visit the trade area to join our network.",
-   "pt": "Sim. Fabricantes de cozinhas, arquitetos, artesãos e distribuidores beneficiam de preços preferenciais, de um catálogo alargado e de um interlocutor dedicado. Visite a área de revendedores para se juntar à nossa rede."
+   "fr": "Nous fabriquons pour les sociétés du groupe CB Surfaces (CB Surfaces, Easy Plan, Kitchenfab) et pour les professionnels indépendants : cuisinistes, marbriers, architectes, agenceurs, distributeurs et entreprises spécialisées. Chaque client bénéficie de conditions adaptées à ses volumes et d'un interlocuteur dédié.",
+   "en": "We manufacture for the CB Surfaces group companies (CB Surfaces, Easy Plan, Kitchenfab) and for independent professionals: kitchen specialists, stonemasons, architects, interior fitters, distributors and specialist companies. Each client benefits from terms adapted to their volumes and a dedicated contact.",
+   "pt": "Fabricamos para as empresas do grupo CB Surfaces (CB Surfaces, Easy Plan, Kitchenfab) e para profissionais independentes: fabricantes de cozinhas, marmoristas, arquitetos, empresas de interiores, distribuidores e empresas especializadas. Cada cliente beneficia de condições adaptadas aos seus volumes e de um interlocutor dedicado."
   }
  }
 ];
