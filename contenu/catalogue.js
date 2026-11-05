@@ -4416,19 +4416,6 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=600&q=75",
-    "titre": {
-     "fr": "Cuisine lumineuse",
-     "en": "Bright kitchen",
-     "pt": "Cozinha luminosa"
-    },
-    "legende": {
-     "fr": "Ambiance quartz blanc",
-     "en": "White quartz setting",
-     "pt": "Ambiente em quartzo branco"
-    }
-   },
-   {
     "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
     "titre": {
      "fr": "Cuisine ouverte",
@@ -5470,19 +5457,6 @@ CB.catalogue = [
      "en": "Black quartz setting",
      "pt": "Ambiente em quartzo preto"
     }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=600&q=75",
-    "titre": {
-     "fr": "Salle de bain",
-     "en": "Bathroom",
-     "pt": "Casa de banho"
-    },
-    "legende": {
-     "fr": "Ambiance quartz veiné",
-     "en": "Veined quartz setting",
-     "pt": "Ambiente em quartzo com veios"
-    }
    }
   ],
   "liens": [],
@@ -6388,19 +6362,6 @@ CB.catalogue = [
      "fr": "Ambiance salle de bain",
      "en": "Bathroom setting",
      "pt": "Ambiente de casa de banho"
-    }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=600&q=75",
-    "titre": {
-     "fr": "Quartz MStone",
-     "en": "MStone Quartz",
-     "pt": "Quartzo MStone"
-    },
-    "legende": {
-     "fr": "Ambiance plan de travail",
-     "en": "Worktop setting",
-     "pt": "Ambiente de bancada"
     }
    }
   ],
@@ -10291,19 +10252,6 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=600&q=75",
-    "titre": {
-     "fr": "Salle de bain apaisante",
-     "en": "Serene bathroom",
-     "pt": "Casa de banho serena"
-    },
-    "legende": {
-     "fr": "Ambiance calcaire",
-     "en": "Limestone setting",
-     "pt": "Ambiente efeito calcário"
-    }
-   },
-   {
     "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
     "titre": {
      "fr": "Bureau contemporain",
@@ -10582,19 +10530,6 @@ CB.catalogue = [
      "fr": "Ambiance salle de bain",
      "en": "Bathroom setting",
      "pt": "Ambiente de casa de banho"
-    }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=600&q=75",
-    "titre": {
-     "fr": "Céramique MStone",
-     "en": "MStone Ceramic",
-     "pt": "Cerâmica MStone"
-    },
-    "legende": {
-     "fr": "Ambiance plan de travail",
-     "en": "Worktop setting",
-     "pt": "Ambiente de bancada"
     }
    }
   ],
@@ -11389,19 +11324,6 @@ CB.catalogue = [
      "fr": "Ambiance surface blanche",
      "en": "White surface setting",
      "pt": "Ambiente com superfície branca"
-    }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=600&q=75",
-    "titre": {
-     "fr": "Plan vasque courbe",
-     "en": "Curved vanity top",
-     "pt": "Bancada de lavatório curva"
-    },
-    "legende": {
-     "fr": "Ambiance thermoformée",
-     "en": "Thermoformed setting",
-     "pt": "Ambiente termoformado"
     }
    },
    {
@@ -13027,19 +12949,6 @@ CB.catalogue = [
      "en": "Light granite setting",
      "pt": "Ambiente em granito claro"
     }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=600&q=75",
-    "titre": {
-     "fr": "Cuisine lumineuse",
-     "en": "Bright kitchen",
-     "pt": "Cozinha luminosa"
-    },
-    "legende": {
-     "fr": "Ambiance granit crème",
-     "en": "Cream granite setting",
-     "pt": "Ambiente em granito creme"
-    }
    }
   ],
   "liens": [],
@@ -14080,19 +13989,6 @@ CB.catalogue = [
      "en": "Bathroom setting",
      "pt": "Ambiente de casa de banho"
     }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=600&q=75",
-    "titre": {
-     "fr": "Marbre Texta",
-     "en": "Texta Marble",
-     "pt": "Mármore Texta"
-    },
-    "legende": {
-     "fr": "Ambiance plan de travail",
-     "en": "Worktop setting",
-     "pt": "Ambiente de bancada"
-    }
    }
   ],
   "liens": [],
@@ -14991,19 +14887,6 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=600&q=75",
-    "titre": {
-     "fr": "Pierre recyclée MStone",
-     "en": "MStone Recycled Stone",
-     "pt": "Pedra reciclada MStone"
-    },
-    "legende": {
-     "fr": "Ambiance cuisine",
-     "en": "Kitchen setting",
-     "pt": "Ambiente de cozinha"
-    }
-   },
-   {
     "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
     "titre": {
      "fr": "Pierre recyclée MStone",
@@ -15014,19 +14897,6 @@ CB.catalogue = [
      "fr": "Ambiance salle de bain",
      "en": "Bathroom setting",
      "pt": "Ambiente de casa de banho"
-    }
-   },
-   {
-    "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=600&q=75",
-    "titre": {
-     "fr": "Pierre recyclée MStone",
-     "en": "MStone Recycled Stone",
-     "pt": "Pedra reciclada MStone"
-    },
-    "legende": {
-     "fr": "Ambiance plan de travail",
-     "en": "Worktop setting",
-     "pt": "Ambiente de bancada"
     }
    }
   ],

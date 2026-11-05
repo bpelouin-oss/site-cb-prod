@@ -11,7 +11,7 @@ try{DB.appliquer(document,LANG,ROOT);}catch(err){console.error('Textes',err);}
 
 /* Photos de secours (Unsplash) */
 const U=(id,w)=>'https://images.unsplash.com/photo-'+id+'?w='+(w||600)+'&q=75';
-const IMG={k1:'1556909190-eccf4a8bf97a',k2:'1600607687939-ce8a6c25118c',k3:'1560185007-5f0bb1866cab',k4:'1552321554-5fefe8c9ef14',k5:'1631048501851-9e85ed774ef6',k6:'1556909172-54557c7e4fb7',k7:'1484154218962-a197022b5858',k8:'1556909195-b5b26e91e9a7',k9:'1504328345606-18bbc8c9d7d1'};
+const IMG={k1:'1556909190-eccf4a8bf97a',k2:'1600607687939-ce8a6c25118c',k3:'1560185007-5f0bb1866cab',k4:'1552321554-5fefe8c9ef14',k5:'1556909190-eccf4a8bf97a',k6:'1556909172-54557c7e4fb7',k7:'1484154218962-a197022b5858',k8:'1600607687939-ce8a6c25118c',k9:'1504328345606-18bbc8c9d7d1'};
 
 /* Catalogue (contenu/catalogue.js) */
 const MATS=(DB.catalogue||[]).filter(g=>g&&g.id).map(g=>{
@@ -315,6 +315,12 @@ function serialize(f){
   return out.join('\n');
 }
 function mailto(subject,body){return 'mailto:'+MAIL_TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+/* Plan B quand aucune messagerie ne s'ouvre (webmail) */
+function gmail(subject,body){return 'https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(MAIL_TO)+'&su='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+function outlook(subject,body){return 'https://outlook.live.com/mail/0/deeplink/compose?to='+encodeURIComponent(MAIL_TO)+'&subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+async function copyRecap(el){const txt=T.to+MAIL_TO+'\n\n'+el.textContent;
+  try{await navigator.clipboard.writeText(txt);notify(T.copiedT,T.copiedM+MAIL_TO+'.');}
+  catch(_){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);notify(T.selT,T.selM+MAIL_TO+'.');}}
 
 /* Devis en 3 étapes */
 let dvStep=1;const DVN=3;const dvForm=$('#devisForm');
@@ -346,15 +352,11 @@ dvForm.addEventListener('submit',e=>{
   const body=serialize(dvForm)+'\n\n'+T.sentFrom;
   const href=mailto(subj,body);
   $('#dvRecap').textContent=body;$('#dvMailAgain').href=href;
+  const g=$('#dvGmail'),o=$('#dvOutlook');if(g)g.href=gmail(subj,body);if(o)o.href=outlook(subj,body);
   dvGo(4,true);
   location.href=href;
-  notify(T.mailOpenT,T.mailOpenQuote);
 });
-$('#dvCopy').addEventListener('click',async()=>{
-  const txt=T.to+MAIL_TO+'\n\n'+$('#dvRecap').textContent;
-  try{await navigator.clipboard.writeText(txt);notify(T.copiedT,T.copiedM+MAIL_TO+'.');}
-  catch(_){const r=document.createRange();r.selectNodeContents($('#dvRecap'));const s=getSelection();s.removeAllRanges();s.addRange(r);notify(T.selT,T.selM+MAIL_TO+'.');}
-});
+$('#dvCopy').addEventListener('click',()=>copyRecap($('#dvRecap')));
 $$('input,select,textarea').forEach(el=>el.addEventListener('input',()=>{if(el.getAttribute('aria-invalid')==='true')checkField(el);}));
 $$('input[required],textarea[required],select[required]').forEach(el=>el.addEventListener('blur',()=>{if(el.value)checkField(el);}));
 
@@ -363,14 +365,17 @@ $('#contactForm').addEventListener('submit',e=>{
   e.preventDefault();const f=e.currentTarget;let first=null;
   $$('[required]',f).forEach(el=>{if(!checkField(el)&&!first)first=el;});
   if(first){first.focus();notify(T.missingT,T.missingM);return;}
-  location.href=mailto($('#c-sujet').value.trim()||T.msgSubj,serialize(f)+'\n\n'+T.sentFrom);
-  notify(T.mailOpenT,T.mailOpenContact);
+  const subj=$('#c-sujet').value.trim()||T.msgSubj,body=serialize(f)+'\n\n'+T.sentFrom,href=mailto(subj,body);
+  const done=$('#ctDone');
+  if(done){$('#ctRecap').textContent=body;$('#ctMailAgain').href=href;$('#ctGmail').href=gmail(subj,body);$('#ctOutlook').href=outlook(subj,body);done.hidden=false;done.focus({preventScroll:true});done.scrollIntoView({behavior:REDUCE?'auto':'smooth',block:'nearest'});}
+  location.href=href;
+  if(!done)notify(T.mailOpenT,T.mailOpenContact);
 });
+{const b=$('#ctCopy');if(b)b.addEventListener('click',()=>copyRecap($('#ctRecap')));}
 
 /* Carte : chargée à la demande (performance + vie privée) */
 function loadMap(){const m=$('#ctMap');if(m.dataset.on)return;m.dataset.on=1;m.innerHTML='<iframe title="'+T.mapTitle+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.32%2C38.92%2C-9.22%2C38.98&amp;layer=mapnik&amp;marker=38.95%2C-9.27"></iframe>';}
 $('#mapBtn').addEventListener('click',loadMap);
-if('IntersectionObserver' in window){const mo=new IntersectionObserver(es=>{if(es[0].isIntersecting){loadMap();mo.disconnect();}},{rootMargin:'300px'});mo.observe($('#ctMap'));}
 
 /* ══════════════════ DÉFILEMENT : nav, scrollspy, barre mobile ══════════════════ */
 const nav=$('#nav'),toTop=$('#toTop'),mBar=$('#mBar'),hero=$('.hero');

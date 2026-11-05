@@ -20,11 +20,11 @@ CB.images = {
   "nom": "Familles · carte Quartz"
  },
  "familles-corian": {
-  "image": "https://images.unsplash.com/photo-1631048501851-9e85ed774ef6?w=900&q=75&auto=format",
+  "image": "images/coloris/corian-resine-corian-cameo-white-echantillon.jpg",
   "nom": "Familles · carte Corian®"
  },
  "familles-granit-traite": {
-  "image": "https://images.unsplash.com/photo-1556909195-b5b26e91e9a7?w=900&q=75&auto=format",
+  "image": "images/coloris/pierre-naturelle-granit-sensa-indian-black-echantillon.jpg",
   "nom": "Familles · carte Granit traité"
  },
  "mineralis-photo": {

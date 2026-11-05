@@ -659,9 +659,9 @@ CB.textes = {
   "pt": "O que lhe *garantimos*"
  },
  "engagements.03": {
-  "fr": "Réponse sous 48 h",
-  "en": "Reply within 48 hours",
-  "pt": "Resposta em 48 h"
+  "fr": "Réponse sous 48 h ouvrées",
+  "en": "Reply within 48 working hours",
+  "pt": "Resposta em 48 horas úteis"
  },
  "engagements.04": {
   "fr": "Chaque demande de devis est étudiée par un expert, qui vous recontacte si besoin avant d'établir un chiffrage précis.",
@@ -1359,14 +1359,14 @@ CB.textes = {
   "pt": "Empresa"
  },
  "devis.73": {
-  "fr": "Votre demande est prête",
-  "en": "Your request is ready",
-  "pt": "O seu pedido está pronto"
+  "fr": "Dernière étape : envoyez l'e-mail",
+  "en": "Last step: send the email",
+  "pt": "Último passo: envie o e-mail"
  },
  "devis.74": {
-  "fr": "Votre messagerie devrait s'ouvrir avec la demande pré-remplie : il ne vous reste qu'à l'envoyer, en y joignant plans ou photos si vous le souhaitez. Rien ne s'est ouvert ? Copiez la demande et envoyez-la à ",
-  "en": "Your email app should open with the request already filled in: all that's left is to send it, attaching any plans or photos you wish. Nothing opened? Copy the request and send it to ",
-  "pt": "O seu programa de e-mail deverá abrir-se com o pedido já preenchido: só tem de o enviar, anexando plantas ou fotografias, se desejar. Não se abriu nada? Copie o pedido e envie-o para "
+  "fr": "Votre messagerie devrait s'ouvrir avec la demande pré-remplie : il ne vous reste qu'à l'envoyer, en y joignant plans ou photos si vous le souhaitez. Rien ne s'est ouvert ? Utilisez Gmail ou Outlook ci-dessous, ou copiez la demande et envoyez-la à ",
+  "en": "Your email app should open with the request already filled in: all that's left is to send it, attaching any plans or photos you wish. Nothing opened? Use Gmail or Outlook below, or copy the request and send it to ",
+  "pt": "O seu programa de e-mail deverá abrir-se com o pedido já preenchido: só tem de o enviar, anexando plantas ou fotografias, se desejar. Não se abriu nada? Use o Gmail ou o Outlook abaixo, ou copie o pedido e envie-o para "
  },
  "devis.75": {
   "fr": "direction@cbproducao.com",
@@ -1579,9 +1579,9 @@ CB.textes = {
   "pt": "Fabricante e distribuidor de bancadas por medida. Fábrica em Igreja Nova, Mafra, Portugal. Entrega e instalação em Portugal e em França."
  },
  "pied.03": {
-  "fr": "Devis gratuit sous 48 h",
-  "en": "Free quote within 48 hours",
-  "pt": "Orçamento grátis em 48 h"
+  "fr": "Devis gratuit sous 48 h ouvrées",
+  "en": "Free quote within 48 working hours",
+  "pt": "Orçamento grátis em 48 h úteis"
  },
  "pied.04": {
   "fr": "Matériaux",
@@ -1744,9 +1744,9 @@ CB.textes = {
   "pt": "Bancadas por medida em pedra, quartzo e granito | CB Prod"
  },
  "seo.description": {
-  "fr": "Plans de travail sur mesure en pierre naturelle, granit, quartz et céramique. Usine à Mafra, pose en France et au Portugal. Devis gratuit sous 48 h.",
-  "en": "Bespoke worktops in natural stone, granite, quartz and ceramic, made in our factory near Lisbon and fitted in France and Portugal. Free quote in 48 h.",
-  "pt": "Bancadas por medida em pedra natural, granito, quartzo e cerâmica. Fábrica em Mafra, perto de Lisboa, instalação em Portugal e França. Orçamento grátis em 48 h."
+  "fr": "Plans de travail sur mesure en pierre naturelle, granit, quartz et céramique. Usine à Mafra, pose en France et au Portugal. Devis gratuit sous 48 h ouvrées.",
+  "en": "Bespoke worktops in natural stone, granite, quartz and ceramic, made in our factory near Lisbon and fitted in France and Portugal. Free quote within 48 working hours.",
+  "pt": "Bancadas por medida em pedra natural, granito, quartzo e cerâmica. Fábrica em Mafra, perto de Lisboa, instalação em Portugal e França. Orçamento grátis em 48 h úteis."
  },
  "seo.partage-titre": {
   "fr": "CB Prod · Plans de travail sur mesure",
@@ -2017,5 +2017,35 @@ CB.textes = {
   "fr": "{n} sur 5",
   "en": "{n} out of 5",
   "pt": "{n} em 5"
+ },
+ "devis.82": {
+  "fr": "Ouvrir dans Gmail",
+  "en": "Open in Gmail",
+  "pt": "Abrir no Gmail"
+ },
+ "devis.83": {
+  "fr": "Ouvrir dans Outlook.com",
+  "en": "Open in Outlook.com",
+  "pt": "Abrir no Outlook.com"
+ },
+ "contact.34": {
+  "fr": "Dernière étape : envoyez l'e-mail",
+  "en": "Last step: send the email",
+  "pt": "Último passo: envie o e-mail"
+ },
+ "contact.35": {
+  "fr": "Votre messagerie devrait s'ouvrir avec le message pré-rempli : il ne vous reste qu'à l'envoyer. Rien ne s'est ouvert ? Utilisez Gmail ou Outlook ci-dessous, ou copiez le message et envoyez-le à ",
+  "en": "Your email app should open with the message filled in: all that's left is to send it. Nothing opened? Use Gmail or Outlook below, or copy the message and send it to ",
+  "pt": "O seu programa de e-mail deverá abrir-se com a mensagem já preenchida: só tem de a enviar. Não se abriu nada? Use o Gmail ou o Outlook abaixo, ou copie a mensagem e envie-a para "
+ },
+ "contact.36": {
+  "fr": "Copier le message",
+  "en": "Copy the message",
+  "pt": "Copiar a mensagem"
+ },
+ "pied.26": {
+  "fr": "Livro de Reclamações",
+  "en": "Complaints book (Livro de Reclamações)",
+  "pt": "Livro de Reclamações"
  }
 };
