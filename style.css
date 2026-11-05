@@ -1,3 +1,17 @@
+/* Polices hébergées sur le site (plus de requête vers Google : RGPD et vitesse) */
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/jost-normal-latin-ext-0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/jost-normal-latin-1.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/jost-normal-latin-ext-0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/jost-normal-latin-1.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/jost-normal-latin-ext-0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/jost-normal-latin-1.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400;font-display:swap;src:url(fonts/playfair-display-italic-latin-ext-2.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400;font-display:swap;src:url(fonts/playfair-display-italic-latin-3.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/playfair-display-normal-latin-ext-4.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/playfair-display-normal-latin-5.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/playfair-display-normal-latin-ext-4.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/playfair-display-normal-latin-5.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
 /* CB Prod — mise en page du site (couleurs, polices, disposition).
    Le contenu (textes, images, catalogue) ne se modifie pas ici : voir le dossier « contenu »
    ou ouvrir modifier-mon-site.html. */
@@ -539,7 +553,7 @@ section{position:relative}
 @media (max-width:360px){.lang a{min-width:28px;padding:0 .15rem}.logo{font-size:1.15rem}}
 @media (max-width:440px){.form-nav .btn-row{flex-direction:column-reverse}.form-nav .btn-row .btn{width:100%;flex:none}.steps li{letter-spacing:.06em}.steps li::before{content:"0" counter(s) " "}}
 .lang a[aria-current="page"]{opacity:1;font-weight:600;text-decoration:underline;text-underline-offset:4px}
-@media (max-width:760px){.hero-cap{display:block;width:auto;right:var(--gut);bottom:1.4rem}.hero-cap-cat,.hero-cap-mat{display:none}.hero-bars button.hb{width:22px}}
+@media (max-width:760px){.hero-cap{display:block;width:auto;right:var(--gut);bottom:1.4rem}.hero-cap-cat,.hero-cap-mat{display:none}.hero-bars button.hb{width:26px}}
 @media (min-width:1281px) and (max-width:1480px){.nav .wrap{gap:1.1rem}.nav-links{gap:1.05rem}.nav-links a{letter-spacing:.08em;font-size:.7rem}.lang{margin-left:.2rem}.nav-cta{padding:.5rem .9rem}}
 :root{--marble:url("images/textures/texture-marbre-fond.jpg");--marble-inv:url("images/textures/texture-marbre-fond-sombre.jpg")}
 .tx-hero{--tx:url("images/textures/texture-hero.jpg")}
@@ -554,3 +568,26 @@ section{position:relative}
 .tx-granitbrun{--tx:url("images/textures/texture-granitbrun.jpg")}
 .tx-beton{--tx:url("images/textures/texture-beton.jpg")}
 .tx-travertin{--tx:url("images/textures/texture-travertin.jpg")}
+
+/* Audit nov. 2026 : accessibilité et mobile */
+.fg input:focus-visible,.fg select:focus-visible,.fg textarea:focus-visible{outline:2px solid var(--stone-d);outline-offset:1px}
+@media (max-width:1280px){.nav-links .m-only a.btn{padding:.85rem 1.5rem}}
+.dv-contact a[href^="tel:"],.ci a[href^="tel:"]{display:inline-block;padding:.6rem 0;min-height:44px;line-height:1.6}
+.guide-cta{padding:.5rem 0}
+.ct-done{text-align:left;padding:1.4rem 0 0}
+.ct-done h3{font-size:1.4rem}
+.ct-done p{margin:0 0 1.2rem;max-width:none}
+.ct-done .btn-row{justify-content:flex-start}
+.ft-legal{display:flex;gap:1.2rem;flex-wrap:wrap;align-items:center}
+
+/* Liens vers les pages dédiées, en pied de page (ajouté pour le référencement) */
+.ft-seo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem;padding:2.5rem 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:.84rem}
+.ft-seo ul{list-style:none;display:grid;gap:.4rem}
+.ft-seo a{text-decoration:none;color:rgba(243,238,229,.65)}
+.ft-seo a:hover{color:#fff}
+@media (max-width:900px){.ft-seo{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.ft-seo{grid-template-columns:1fr}}
+.hp{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}
+.done-box.sent svg{stroke:var(--gold,#B08D57)}
+.form-nav small a,.ct-form small a{color:inherit;text-decoration:underline}
+.ft-legal a+a{margin-left:0}

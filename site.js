@@ -9,9 +9,9 @@ const tr=o=>DB.tr(o,LANG);
 const SRC=u=>DB.src(u,ROOT);
 try{DB.appliquer(document,LANG,ROOT);}catch(err){console.error('Textes',err);}
 
-/* Photos de secours (Unsplash) */
-const U=(id,w)=>'https://images.unsplash.com/photo-'+id+'?w='+(w||600)+'&q=75';
-const IMG={k1:'1556909190-eccf4a8bf97a',k2:'1600607687939-ce8a6c25118c',k3:'1560185007-5f0bb1866cab',k4:'1552321554-5fefe8c9ef14',k5:'1631048501851-9e85ed774ef6',k6:'1556909172-54557c7e4fb7',k7:'1484154218962-a197022b5858',k8:'1556909195-b5b26e91e9a7',k9:'1504328345606-18bbc8c9d7d1'};
+/* Photos de secours (Unsplash, copiées sur le site) */
+const U=(id,w)=>ROOT+'images/site/unsplash-'+id+'.webp';
+const IMG={k1:'1556909190-eccf4a8bf97a',k2:'1600607687939-ce8a6c25118c',k3:'1560185007-5f0bb1866cab',k4:'1552321554-5fefe8c9ef14',k5:'1556909190-eccf4a8bf97a',k6:'1556909172-54557c7e4fb7',k7:'1484154218962-a197022b5858',k8:'1600607687939-ce8a6c25118c',k9:'1504328345606-18bbc8c9d7d1'};
 
 /* Catalogue (contenu/catalogue.js) */
 const MATS=(DB.catalogue||[]).filter(g=>g&&g.id).map(g=>{
@@ -306,15 +306,34 @@ function checkField(el){
   const err=document.getElementById('err-'+el.id);if(err)err.textContent=msg;
   return !msg;
 }
-function serialize(f){
+function fieldsOf(f){
   const out=[],seen=new Set();
   $$('input,select,textarea',f).forEach(el=>{
+    if(el.name==='site_web')return;
     if(el.type==='radio'){if(!el.checked||seen.has(el.name))return;seen.add(el.name);}
-    const v=(el.value||'').trim();if(v)out.push(el.name+(LANG==='fr'?' : ':': ')+v);
+    const v=(el.value||'').trim();if(v)out.push([el.name,v]);
   });
-  return out.join('\n');
+  return out;
 }
+function serialize(f){return fieldsOf(f).map(c=>c[0]+(LANG==='fr'?' : ':': ')+c[1]).join('\n');}
+/* Envoi direct par le serveur (envoyer.php). En cas d'échec (site ouvert sur l'ordinateur, serveur indisponible), on repasse par la messagerie du visiteur. */
+const T0=Date.now();
+async function sendServer(type,f,subj,who){
+  if(location.protocol==='file:'||!window.fetch)return false;
+  const hp=$('input[name="site_web"]',f);
+  try{const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),15000);
+    const r=await fetch(ROOT+'envoyer.php',{method:'POST',headers:{'Content-Type':'application/json'},signal:ctl.signal,
+      body:JSON.stringify({type,lang:LANG,sujet:subj,email:who.email,nom:who.nom||'',prenom:who.prenom||'',champs:fieldsOf(f),site_web:hp?hp.value:'',duree:Date.now()-T0})});
+    clearTimeout(to);if(!r.ok)return false;const j=await r.json();return !!(j&&j.ok);}catch(_){return false;}
+}
+function busy(btn,on){if(!btn)return;if(on){btn.dataset.lbl=btn.innerHTML;btn.textContent=T.sending||'…';btn.disabled=true;}else{if(btn.dataset.lbl)btn.innerHTML=btn.dataset.lbl;btn.disabled=false;}}
 function mailto(subject,body){return 'mailto:'+MAIL_TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+/* Plan B quand aucune messagerie ne s'ouvre (webmail) */
+function gmail(subject,body){return 'https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(MAIL_TO)+'&su='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+function outlook(subject,body){return 'https://outlook.live.com/mail/0/deeplink/compose?to='+encodeURIComponent(MAIL_TO)+'&subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
+async function copyRecap(el){const txt=T.to+MAIL_TO+'\n\n'+el.textContent;
+  try{await navigator.clipboard.writeText(txt);notify(T.copiedT,T.copiedM+MAIL_TO+'.');}
+  catch(_){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);notify(T.selT,T.selM+MAIL_TO+'.');}}
 
 /* Devis en 3 étapes */
 let dvStep=1;const DVN=3;const dvForm=$('#devisForm');
@@ -339,38 +358,45 @@ $('#dvNext').addEventListener('click',()=>{if(dvValid(dvStep))dvGo(dvStep+1,true
 $('#dvPrev').addEventListener('click',()=>dvGo(dvStep-1,true));
 $('#typeGroup').addEventListener('change',()=>$('#err-type').textContent='');
 dvForm.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.tagName==='INPUT'&&dvStep<DVN){e.preventDefault();$('#dvNext').click();}});
-dvForm.addEventListener('submit',e=>{
+dvForm.addEventListener('submit',async e=>{
   e.preventDefault();
   for(let n=1;n<=DVN;n++){if(!dvValid(n)){dvGo(n);dvValid(n);notify(T.missingT,T.missingM);return;}}
   const subj=T.quoteSubj+($('#d-mat').value||T.project)+' · '+$('#d-prenom').value.trim()+' '+$('#d-nom').value.trim();
   const body=serialize(dvForm)+'\n\n'+T.sentFrom;
   const href=mailto(subj,body);
   $('#dvRecap').textContent=body;$('#dvMailAgain').href=href;
+  busy($('#dvSend'),true);
+  const sent=await sendServer('devis',dvForm,subj,{email:$('#d-email').value.trim(),nom:$('#d-nom').value.trim(),prenom:$('#d-prenom').value.trim()});
+  busy($('#dvSend'),false);
+  if(sent){const box=$('.step[data-step="4"]',dvForm);box.classList.add('sent');$('h3',box).textContent=T.sentT;$('p',box).textContent=T.sentQuote;$('.btn-row',box).hidden=true;dvGo(4,true);return;}
+  const g=$('#dvGmail'),o=$('#dvOutlook');if(g)g.href=gmail(subj,body);if(o)o.href=outlook(subj,body);
   dvGo(4,true);
   location.href=href;
-  notify(T.mailOpenT,T.mailOpenQuote);
 });
-$('#dvCopy').addEventListener('click',async()=>{
-  const txt=T.to+MAIL_TO+'\n\n'+$('#dvRecap').textContent;
-  try{await navigator.clipboard.writeText(txt);notify(T.copiedT,T.copiedM+MAIL_TO+'.');}
-  catch(_){const r=document.createRange();r.selectNodeContents($('#dvRecap'));const s=getSelection();s.removeAllRanges();s.addRange(r);notify(T.selT,T.selM+MAIL_TO+'.');}
-});
+$('#dvCopy').addEventListener('click',()=>copyRecap($('#dvRecap')));
 $$('input,select,textarea').forEach(el=>el.addEventListener('input',()=>{if(el.getAttribute('aria-invalid')==='true')checkField(el);}));
 $$('input[required],textarea[required],select[required]').forEach(el=>el.addEventListener('blur',()=>{if(el.value)checkField(el);}));
 
 /* Contact rapide */
-$('#contactForm').addEventListener('submit',e=>{
+$('#contactForm').addEventListener('submit',async e=>{
   e.preventDefault();const f=e.currentTarget;let first=null;
   $$('[required]',f).forEach(el=>{if(!checkField(el)&&!first)first=el;});
   if(first){first.focus();notify(T.missingT,T.missingM);return;}
-  location.href=mailto($('#c-sujet').value.trim()||T.msgSubj,serialize(f)+'\n\n'+T.sentFrom);
-  notify(T.mailOpenT,T.mailOpenContact);
+  const subj=$('#c-sujet').value.trim()||T.msgSubj,body=serialize(f)+'\n\n'+T.sentFrom,href=mailto(subj,body);
+  const done=$('#ctDone');
+  const sb=$('button[type=submit]',f);busy(sb,true);
+  const sent=await sendServer('contact',f,subj,{email:$('#c-email').value.trim(),nom:$('#c-nom').value.trim()});
+  busy(sb,false);
+  if(sent&&done){done.classList.add('sent');$('h3',done).textContent=T.sentT2;$('p',done).textContent=T.sentContact;$('.btn-row',done).hidden=true;$('#ctRecap').textContent=body;done.hidden=false;done.focus({preventScroll:true});done.scrollIntoView({behavior:REDUCE?'auto':'smooth',block:'nearest'});f.querySelectorAll('input,textarea').forEach(x=>{if(x.name!=='site_web')x.value='';});return;}
+  if(done){$('#ctRecap').textContent=body;$('#ctMailAgain').href=href;$('#ctGmail').href=gmail(subj,body);$('#ctOutlook').href=outlook(subj,body);done.hidden=false;done.focus({preventScroll:true});done.scrollIntoView({behavior:REDUCE?'auto':'smooth',block:'nearest'});}
+  location.href=href;
+  if(!done)notify(T.mailOpenT,T.mailOpenContact);
 });
+{const b=$('#ctCopy');if(b)b.addEventListener('click',()=>copyRecap($('#ctRecap')));}
 
 /* Carte : chargée à la demande (performance + vie privée) */
 function loadMap(){const m=$('#ctMap');if(m.dataset.on)return;m.dataset.on=1;m.innerHTML='<iframe title="'+T.mapTitle+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.32%2C38.92%2C-9.22%2C38.98&amp;layer=mapnik&amp;marker=38.95%2C-9.27"></iframe>';}
 $('#mapBtn').addEventListener('click',loadMap);
-if('IntersectionObserver' in window){const mo=new IntersectionObserver(es=>{if(es[0].isIntersecting){loadMap();mo.disconnect();}},{rootMargin:'300px'});mo.observe($('#ctMap'));}
 
 /* ══════════════════ DÉFILEMENT : nav, scrollspy, barre mobile ══════════════════ */
 const nav=$('#nav'),toTop=$('#toTop'),mBar=$('#mBar'),hero=$('.hero');
