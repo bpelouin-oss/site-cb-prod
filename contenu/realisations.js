@@ -55,7 +55,7 @@ CB.realisations = {
  "photos": [
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-1.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-1.webp",
    "legende": {
     "fr": "Îlot aux angles arrondis prolongé en table, crédence assortie",
     "en": "Island with rounded corners extending into a table, matching splashback",
@@ -74,7 +74,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-2.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-2.webp",
    "legende": {
     "fr": "Façades bois foncé cannelé, panneau mural noir veiné d'or",
     "en": "Dark fluted wood fronts, black gold-veined wall panel",
@@ -93,7 +93,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-6.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-6.webp",
    "legende": {
     "fr": "Façades beige sable et bois foncé, plan crème",
     "en": "Sand-beige and dark wood fronts, cream worktop",
@@ -112,7 +112,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-34.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-34.webp",
    "legende": {
     "fr": "Meubles bas brun foncé, plan de travail blanc",
     "en": "Dark brown base units, white worktop",
@@ -131,7 +131,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-4.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-4.webp",
    "legende": {
     "fr": "Plan de travail et crédence blancs, façades bois foncé",
     "en": "White worktop and splashback, dark wood fronts",
@@ -150,7 +150,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-4.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-4.webp",
    "legende": {
     "fr": "Évier taillé dans la masse",
     "en": "Sink carved from the solid stone",
@@ -169,7 +169,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-7.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-7.webp",
    "legende": {
     "fr": "Plan de travail et crédence crème",
     "en": "Cream worktop and splashback",
@@ -188,7 +188,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-35.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-35.webp",
    "legende": {
     "fr": "Îlot à meubles bas brun foncé",
     "en": "Island with dark brown base units",
@@ -207,7 +207,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-5.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-5.webp",
    "legende": {
     "fr": "Crédence en marbre au-dessus d'un plan blanc",
     "en": "Marble splashback above a white worktop",
@@ -226,7 +226,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-3.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-3.webp",
    "legende": {
     "fr": "Angle du plan de travail, façades cannelées",
     "en": "Worktop corner, fluted fronts",
@@ -245,7 +245,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-8.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-8.webp",
    "legende": {
     "fr": "Îlot à façades beige sable et bois foncé",
     "en": "Island with sand-beige and dark wood fronts",
@@ -264,7 +264,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-36.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-36.webp",
    "legende": {
     "fr": "Vue d'ensemble, plan de travail blanc",
     "en": "Overall view, white worktop",
@@ -283,7 +283,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-salle-de-bain-marbre-calacatta-1.jpg",
+   "image": "images/realisations/plans-de-travail-salle-de-bain-marbre-calacatta-1.webp",
    "legende": {
     "fr": "Douche habillée de marbre, murs noirs",
     "en": "Marble-clad shower, black walls",
@@ -302,7 +302,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/shoootin-photo-10.jpg",
+   "image": "images/realisations/shoootin-photo-10.webp",
    "legende": {
     "fr": "Plan de vasque blanc sur meuble bois clair",
     "en": "White vanity top on a light wood unit",
@@ -321,7 +321,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-13.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-13.webp",
    "legende": {
     "fr": "Plan double vasque sur meuble brun foncé",
     "en": "Double vanity top on a dark brown unit",
@@ -340,7 +340,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-2.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-2.webp",
    "legende": {
     "fr": "Plan double vasque sur meuble bois clair",
     "en": "Double vanity top on a light wood unit",
@@ -359,7 +359,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/shoootin-photo-8.jpg",
+   "image": "images/realisations/shoootin-photo-8.webp",
    "legende": {
     "fr": "Meuble bois clair et plan de vasque blanc",
     "en": "Light wood unit and white vanity top",
@@ -378,7 +378,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-15.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-15.webp",
    "legende": {
     "fr": "Douche habillée de travertin",
     "en": "Travertine-clad shower",
@@ -397,7 +397,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-3.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-3.webp",
    "legende": {
     "fr": "Salle de bains à meuble bois clair, plan beige",
     "en": "Bathroom with light wood unit, beige top",
@@ -416,7 +416,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-1.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-1.webp",
    "legende": {
     "fr": "Plan de vasque beige sur meuble bois clair",
     "en": "Beige vanity top on a light wood unit",
@@ -435,7 +435,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-salle-de-bain-reference-a-venir-14.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-reference-a-venir-14.webp",
    "legende": {
     "fr": "Détail du travertin, meuble brun foncé",
     "en": "Travertine detail, dark brown unit",
@@ -454,7 +454,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.webp",
    "legende": {
     "fr": "Table basse, socle noir, dans un salon",
     "en": "Coffee table with black base in a living room",
@@ -473,7 +473,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-22.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-22.webp",
    "legende": {
     "fr": "Table ovale bicolore sur socle laiton",
     "en": "Two-tone oval table on a brass base",
@@ -492,7 +492,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-9.png",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-9.webp",
    "legende": {
     "fr": "Table à manger, pied bois cannelé",
     "en": "Dining table, fluted wood base",
@@ -511,7 +511,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-19.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-19.webp",
    "legende": {
     "fr": "Guéridon à pied laiton le long d'une banquette",
     "en": "Brass-footed pedestal table beside a banquette",
@@ -530,7 +530,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-7.png",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-7.webp",
    "legende": {
     "fr": "Table à manger, pied bois cannelé",
     "en": "Dining table, fluted wood base",
@@ -549,7 +549,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-marbre-travertino-classique-5.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-marbre-travertino-classique-5.webp",
    "legende": {
     "fr": "Table sur mesure",
     "en": "Bespoke table",
@@ -568,7 +568,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-2.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-2.webp",
    "legende": {
     "fr": "Table basse à plateau gris",
     "en": "Coffee table with grey top",
@@ -587,7 +587,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-24.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-24.webp",
    "legende": {
     "fr": "Table ovale bicolore",
     "en": "Two-tone oval table",
@@ -606,7 +606,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-reference-a-venir-11.png",
+   "image": "images/realisations/plans-de-travail-realisation-table-reference-a-venir-11.webp",
    "legende": {
     "fr": "Table à manger en situation",
     "en": "Dining table in situ",
@@ -625,7 +625,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.webp",
    "legende": {
     "fr": "Comptoir de bar, habillage blanc cannelé",
     "en": "Bar counter, white fluted cladding",
@@ -644,7 +644,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-5.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-5.webp",
    "legende": {
     "fr": "Cuisine ouverte de restaurant, habillage bois",
     "en": "Restaurant open kitchen, wood cladding",
@@ -663,7 +663,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-4.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-4.webp",
    "legende": {
     "fr": "Bar devant un panneau rétroéclairé noir et or",
     "en": "Bar in front of a backlit black-and-gold panel",
@@ -682,7 +682,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-4.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-4.webp",
    "legende": {
     "fr": "Comptoir de bar, habillage bois",
     "en": "Bar counter, wood cladding",
@@ -701,7 +701,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-7.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-7.webp",
    "legende": {
     "fr": "Panneau mural et habillage cannelé",
     "en": "Wall panel and fluted cladding",
@@ -720,7 +720,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-7.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-reference-a-venir-7.webp",
    "legende": {
     "fr": "Comptoir sur toute sa longueur",
     "en": "The counter along its full length",
@@ -739,7 +739,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/shoootin-photo-27.jpg",
+   "image": "images/realisations/shoootin-photo-27.webp",
    "legende": {
     "fr": "Comptoir de bar",
     "en": "Bar counter",
@@ -758,7 +758,7 @@ CB.realisations = {
   },
   {
    "categorie": "cheminees",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-cheminees-7.jpg",
+   "image": "images/realisations/plans-de-travail-cheminees-7.webp",
    "legende": {
     "fr": "Habillage de cheminée sur mesure",
     "en": "Bespoke fireplace surround",
@@ -777,7 +777,7 @@ CB.realisations = {
   },
   {
    "categorie": "bureaux",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bureaux-reference-a-venir-7.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bureaux-reference-a-venir-7.webp",
    "legende": {
     "fr": "Plan de bureau sur mesure",
     "en": "Bespoke desk top",
@@ -798,7 +798,7 @@ CB.realisations = {
  "diaporama": [
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-1.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-1.webp",
    "legende": {
     "fr": "Îlot aux angles arrondis prolongé en table, crédence assortie",
     "en": "Island with rounded corners extending into a table, matching splashback",
@@ -817,7 +817,7 @@ CB.realisations = {
   },
   {
    "categorie": "bars-restaurants",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.webp",
    "legende": {
     "fr": "Comptoir de bar, habillage blanc cannelé",
     "en": "Bar counter, white fluted cladding",
@@ -836,7 +836,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-2.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-2.webp",
    "legende": {
     "fr": "Façades bois foncé cannelé, panneau mural noir veiné d'or",
     "en": "Dark fluted wood fronts, black gold-veined wall panel",
@@ -855,7 +855,7 @@ CB.realisations = {
   },
   {
    "categorie": "salles-de-bains",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-salle-de-bain-marbre-calacatta-1.jpg",
+   "image": "images/realisations/plans-de-travail-salle-de-bain-marbre-calacatta-1.webp",
    "legende": {
     "fr": "Douche habillée de marbre, murs noirs",
     "en": "Marble-clad shower, black walls",
@@ -874,7 +874,7 @@ CB.realisations = {
   },
   {
    "categorie": "cuisines",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-6.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-6.webp",
    "legende": {
     "fr": "Façades beige sable et bois foncé, plan crème",
     "en": "Sand-beige and dark wood fronts, cream worktop",
@@ -893,7 +893,7 @@ CB.realisations = {
   },
   {
    "categorie": "tables",
-   "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.jpg",
+   "image": "images/realisations/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.webp",
    "legende": {
     "fr": "Table basse, socle noir, dans un salon",
     "en": "Coffee table with black base in a living room",

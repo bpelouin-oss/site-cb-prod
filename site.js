@@ -9,8 +9,8 @@ const tr=o=>DB.tr(o,LANG);
 const SRC=u=>DB.src(u,ROOT);
 try{DB.appliquer(document,LANG,ROOT);}catch(err){console.error('Textes',err);}
 
-/* Photos de secours (Unsplash) */
-const U=(id,w)=>'https://images.unsplash.com/photo-'+id+'?w='+(w||600)+'&q=75';
+/* Photos de secours (Unsplash, copiées sur le site) */
+const U=(id,w)=>ROOT+'images/site/unsplash-'+id+'.webp';
 const IMG={k1:'1556909190-eccf4a8bf97a',k2:'1600607687939-ce8a6c25118c',k3:'1560185007-5f0bb1866cab',k4:'1552321554-5fefe8c9ef14',k5:'1556909190-eccf4a8bf97a',k6:'1556909172-54557c7e4fb7',k7:'1484154218962-a197022b5858',k8:'1600607687939-ce8a6c25118c',k9:'1504328345606-18bbc8c9d7d1'};
 
 /* Catalogue (contenu/catalogue.js) */

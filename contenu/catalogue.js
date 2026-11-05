@@ -131,7 +131,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://mstone-surfaces.com/images/mineralis/calacatta-taj.jpg",
+    "image": "images/materiaux/mstone-calacatta-taj.webp",
     "titre": {
      "fr": "Tranche Minéralis",
      "en": "Minéralis slab",
@@ -144,7 +144,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://mstone-surfaces.com/images/mineralis/fiorella.jpg",
+    "image": "images/materiaux/mstone-fiorella.webp",
     "titre": {
      "fr": "Ambiance Minéralis",
      "en": "Minéralis setting",
@@ -157,7 +157,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://mstone-surfaces.com/images/mineralis/calacatta-attera-gold/piedestal-3d.jpg",
+    "image": "images/materiaux/mstone-piedestal-3d.webp",
     "titre": {
      "fr": "Échantillon",
      "en": "Sample",
@@ -204,7 +204,7 @@ CB.catalogue = [
     },
     "couleur1": "#efe9df",
     "couleur2": "#d8c8ae",
-    "image": "https://mstone-surfaces.com/images/mineralis/calacatta-taj.jpg",
+    "image": "images/materiaux/mstone-calacatta-taj.webp",
     "image_grande": "",
     "lien": "https://mstone-surfaces.com/mineralis"
    },
@@ -226,7 +226,7 @@ CB.catalogue = [
     },
     "couleur1": "#f1ece2",
     "couleur2": "#d6bf8a",
-    "image": "https://mstone-surfaces.com/images/mineralis/calacatta-attera-gold/piedestal-3d.jpg",
+    "image": "images/materiaux/mstone-piedestal-3d.webp",
     "image_grande": "",
     "lien": "https://mstone-surfaces.com/mineralis"
    },
@@ -248,7 +248,7 @@ CB.catalogue = [
     },
     "couleur1": "#ece6dc",
     "couleur2": "#cfc3b0",
-    "image": "https://mstone-surfaces.com/images/mineralis/fiorella.jpg",
+    "image": "images/materiaux/mstone-fiorella.webp",
     "image_grande": "",
     "lien": "https://mstone-surfaces.com/mineralis/fiorella"
    },
@@ -636,7 +636,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Cuisine contemporaine",
      "en": "Contemporary kitchen",
@@ -649,7 +649,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Cuisine design sombre",
      "en": "Dark designer kitchen",
@@ -662,7 +662,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Salle de bain naturelle",
      "en": "Natural bathroom",
@@ -2194,7 +2194,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": true,
   "photos": [
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-reference-a-venir-1.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-1.webp",
     "titre": {
      "fr": "Cuisine avec îlot",
      "en": "Kitchen with island",
@@ -2207,7 +2207,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-bars-et-restaurants-marbre-bianco-nieve-3.webp",
     "titre": {
      "fr": "Comptoir de bar",
      "en": "Bar counter",
@@ -2220,7 +2220,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-table-marbre-ombra-di-caravaggio-1.webp",
     "titre": {
      "fr": "Table basse",
      "en": "Coffee table",
@@ -2258,7 +2258,7 @@ CB.catalogue = [
     },
     "couleur1": "#f0ede5",
     "couleur2": "#c8c4bc",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/marbre/calacatta-borghini/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -2280,7 +2280,7 @@ CB.catalogue = [
     },
     "couleur1": "#f5f2ec",
     "couleur2": "#e0dcd4",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/marbre/statuario/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -3466,7 +3466,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": true,
   "photos": [
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-2.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-2.webp",
     "titre": {
      "fr": "Cuisine bois cannelé",
      "en": "Fluted wood kitchen",
@@ -3479,7 +3479,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-cuisine-granit-black-tempest-4.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-cuisine-granit-black-tempest-4.webp",
     "titre": {
      "fr": "Évier taillé dans la masse",
      "en": "Sink carved from the solid stone",
@@ -3492,7 +3492,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://www.easyplandetravail.com/api/media/file/plans-de-travail-realisation-bureaux-reference-a-venir-7.jpg",
+    "image": "images/realisations/plans-de-travail-realisation-bureaux-reference-a-venir-7.webp",
     "titre": {
      "fr": "Plan de bureau",
      "en": "Desk top",
@@ -4416,7 +4416,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Cuisine ouverte",
      "en": "Open-plan kitchen",
@@ -4429,7 +4429,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Plan vasque",
      "en": "Vanity top",
@@ -4467,7 +4467,7 @@ CB.catalogue = [
     },
     "couleur1": "#f2f0ec",
     "couleur2": "#dcdad6",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-silestone/white-platinum/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -4489,7 +4489,7 @@ CB.catalogue = [
     },
     "couleur1": "#1a1a1a",
     "couleur2": "#0d0d0d",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-silestone/negro-tebas/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -4533,7 +4533,7 @@ CB.catalogue = [
     },
     "couleur1": "#4a8080",
     "couleur2": "#306060",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-silestone/calypso/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -5433,7 +5433,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Cuisine épurée",
      "en": "Minimalist kitchen",
@@ -5446,7 +5446,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Cuisine design",
      "en": "Designer kitchen",
@@ -5484,8 +5484,8 @@ CB.catalogue = [
     },
     "couleur1": "#f8f6f2",
     "couleur2": "#ece8e0",
-    "image": "https://pt.compac.es/wp-content/uploads/2020/03/MUESTRA_MAX_PURE-e1625730791191.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2020/03/HOVER_MAX_PURE.jpg",
+    "image": "images/materiaux/compac-muestra-max-pure-e1625730791191.webp",
+    "image_grande": "images/materiaux/compac-hover-max-pure.webp",
     "lien": ""
    },
    {
@@ -5506,8 +5506,8 @@ CB.catalogue = [
     },
     "couleur1": "#111111",
     "couleur2": "#060606",
-    "image": "https://pt.compac.es/wp-content/uploads/2020/03/Bloque_ICEMAXBLACK.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2020/03/Hover_ICEMAXBLACK.jpg",
+    "image": "images/materiaux/compac-bloque-icemaxblack.webp",
+    "image_grande": "images/materiaux/compac-hover-icemaxblack.webp",
     "lien": ""
    },
    {
@@ -5528,8 +5528,8 @@ CB.catalogue = [
     },
     "couleur1": "#f0ede5",
     "couleur2": "#c8c0b0",
-    "image": "https://pt.compac.es/wp-content/uploads/2024/03/Miniatura_Luxury_Borghini_LOW.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2024/03/Hover_Luxury_Borghini_LOW.jpg",
+    "image": "images/materiaux/compac-miniatura-luxury-borghini-low.webp",
+    "image_grande": "images/materiaux/compac-hover-luxury-borghini-low.webp",
     "lien": ""
    },
    {
@@ -5550,8 +5550,8 @@ CB.catalogue = [
     },
     "couleur1": "#ede8de",
     "couleur2": "#c8c0b0",
-    "image": "https://pt.compac.es/wp-content/uploads/2024/03/Miniatura_Elegance_Michelangelo_LOW.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2024/03/Hover_Elegance_Michelangelo_LOW.jpg",
+    "image": "images/materiaux/compac-miniatura-elegance-michelangelo-low.webp",
+    "image_grande": "images/materiaux/compac-hover-elegance-michelangelo-low.webp",
     "lien": ""
    },
    {
@@ -5572,8 +5572,8 @@ CB.catalogue = [
     },
     "couleur1": "#f0ecde",
     "couleur2": "#d8d0b0",
-    "image": "https://pt.compac.es/wp-content/uploads/2023/03/Miniatura_Calacatta_Gold.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2023/03/Hover_Calacatta_Gold.jpg",
+    "image": "images/materiaux/compac-miniatura-calacatta-gold.webp",
+    "image_grande": "images/materiaux/compac-hover-calacatta-gold.webp",
     "lien": ""
    },
    {
@@ -5594,8 +5594,8 @@ CB.catalogue = [
     },
     "couleur1": "#f5f3ef",
     "couleur2": "#e8e5e0",
-    "image": "https://pt.compac.es/wp-content/uploads/2019/09/MUESTRA-ICE-WHITE.jpg",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2017/06/mostra_icewhite.jpg",
+    "image": "images/materiaux/compac-muestra-ice-white.webp",
+    "image_grande": "images/materiaux/compac-mostra-icewhite.webp",
     "lien": ""
    },
    {
@@ -5616,8 +5616,8 @@ CB.catalogue = [
     },
     "couleur1": "#141414",
     "couleur2": "#080808",
-    "image": "https://pt.compac.es/wp-content/uploads/2019/09/MUESTRA-ICE-BLACK.jpg",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2017/06/ice_black_over.jpg",
+    "image": "images/materiaux/compac-muestra-ice-black.webp",
+    "image_grande": "images/materiaux/compac-ice-black-over.webp",
     "lien": ""
    },
    {
@@ -5638,8 +5638,8 @@ CB.catalogue = [
     },
     "couleur1": "#f0eee8",
     "couleur2": "#d8d4cc",
-    "image": "https://pt.compac.es/wp-content/uploads/2023/02/MINIATURA_CARRARA_HIGH.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2023/02/HOVER_CARRARA_HIGH.jpg",
+    "image": "images/materiaux/compac-miniatura-carrara-high.webp",
+    "image_grande": "images/materiaux/compac-hover-carrara-high.webp",
     "lien": ""
    },
    {
@@ -5660,8 +5660,8 @@ CB.catalogue = [
     },
     "couleur1": "#2a2a28",
     "couleur2": "#181816",
-    "image": "https://pt.compac.es/wp-content/uploads/2015/05/Nocturno-COMPAC-copia.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2015/05/compac-nocturno-pulido-cuadrada.jpg",
+    "image": "images/materiaux/compac-nocturno-compac-copia.webp",
+    "image_grande": "images/materiaux/compac-compac-nocturno-pulido-cuadrada.webp",
     "lien": ""
    },
    {
@@ -5682,8 +5682,8 @@ CB.catalogue = [
     },
     "couleur1": "#989490",
     "couleur2": "#787470",
-    "image": "https://pt.compac.es/wp-content/uploads/2015/05/Ceniza-COMPAC-copia.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2015/05/compac-ceniza-pulido-cuadrada.jpg",
+    "image": "images/materiaux/compac-ceniza-compac-copia.webp",
+    "image_grande": "images/materiaux/compac-compac-ceniza-pulido-cuadrada.webp",
     "lien": ""
    },
    {
@@ -5704,8 +5704,8 @@ CB.catalogue = [
     },
     "couleur1": "#c8a850",
     "couleur2": "#a88830",
-    "image": "https://pt.compac.es/wp-content/uploads/2022/10/MINIATURA_GOLD_01.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2022/10/HOVER_GOLD.jpg",
+    "image": "images/materiaux/compac-miniatura-gold-01.webp",
+    "image_grande": "images/materiaux/compac-hover-gold.webp",
     "lien": ""
    },
    {
@@ -5726,8 +5726,8 @@ CB.catalogue = [
     },
     "couleur1": "#303848",
     "couleur2": "#1a2230",
-    "image": "https://pt.compac.es/wp-content/uploads/2022/10/MINIATURA_INK_01-copia.png",
-    "image_grande": "https://pt.compac.es/wp-content/uploads/2022/10/HOVER_INK.jpg",
+    "image": "images/materiaux/compac-miniatura-ink-01-copia.webp",
+    "image_grande": "images/materiaux/compac-hover-ink.webp",
     "lien": ""
    },
    {
@@ -5968,7 +5968,7 @@ CB.catalogue = [
     },
     "couleur1": "#ece4d6",
     "couleur2": "#b89c78",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-compac/luxury-taj/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -5990,7 +5990,7 @@ CB.catalogue = [
     },
     "couleur1": "#d8c6a8",
     "couleur2": "#b39a74",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-compac/luxury-travertino/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -6188,7 +6188,7 @@ CB.catalogue = [
     },
     "couleur1": "#efe8dc",
     "couleur2": "#bfae94",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/quartz/quartz-compac/unique-warm/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    }
@@ -6339,7 +6339,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Quartz MStone",
      "en": "MStone Quartz",
@@ -6352,7 +6352,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Quartz MStone",
      "en": "MStone Quartz",
@@ -6960,7 +6960,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=75",
+    "image": "images/site/unsplash-1556909172-54557c7e4fb7.webp",
     "titre": {
      "fr": "Cuisine design",
      "en": "Designer kitchen",
@@ -6973,7 +6973,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Salle de bain",
      "en": "Bathroom",
@@ -6986,7 +6986,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Îlot central",
      "en": "Kitchen island",
@@ -7233,7 +7233,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Cuisine contemporaine",
      "en": "Contemporary kitchen",
@@ -7246,7 +7246,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Cuisine loft",
      "en": "Loft kitchen",
@@ -7259,7 +7259,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Salle de bain design",
      "en": "Designer bathroom",
@@ -7341,8 +7341,8 @@ CB.catalogue = [
     },
     "couleur1": "#e0dbd0",
     "couleur2": "#c8c3b8",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/serena/illustrations/echantillon.jpg",
-    "image_grande": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/serena/illustrations/piedestal-3D.jpg",
+    "image": "",
+    "image_grande": "",
     "lien": ""
    },
    {
@@ -7407,8 +7407,8 @@ CB.catalogue = [
     },
     "couleur1": "#7a7870",
     "couleur2": "#585850",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/liquid-steel/illustrations/echantillon.jpg",
-    "image_grande": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/liquid-steel/illustrations/piedestal-3D.jpg",
+    "image": "",
+    "image_grande": "",
     "lien": ""
    },
    {
@@ -7451,8 +7451,8 @@ CB.catalogue = [
     },
     "couleur1": "#504840",
     "couleur2": "#303028",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/keranium/illustrations/echantillon.jpg",
-    "image_grande": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-dekton/keranium/illustrations/piedestal-3D.jpg",
+    "image": "",
+    "image_grande": "",
     "lien": ""
    },
    {
@@ -8755,7 +8755,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Cuisine sans joints",
      "en": "Seamless kitchen",
@@ -8768,7 +8768,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Salle de bain épurée",
      "en": "Minimalist bathroom",
@@ -8781,7 +8781,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Crédence grand format",
      "en": "Large-format splashback",
@@ -10239,7 +10239,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=75",
+    "image": "images/site/unsplash-1556909172-54557c7e4fb7.webp",
     "titre": {
      "fr": "Cuisine minimaliste",
      "en": "Minimalist kitchen",
@@ -10252,7 +10252,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Bureau contemporain",
      "en": "Contemporary office",
@@ -10507,7 +10507,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Céramique MStone",
      "en": "MStone Ceramic",
@@ -10520,7 +10520,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Céramique MStone",
      "en": "MStone Ceramic",
@@ -10646,7 +10646,7 @@ CB.catalogue = [
     },
     "couleur1": "#e6dac5",
     "couleur2": "#bda88a",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/ceramique/ceramique-mstone/crema-natural/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -10973,7 +10973,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Céramique Infinity",
      "en": "Infinity Ceramic",
@@ -10986,7 +10986,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=75",
+    "image": "images/site/unsplash-1556909172-54557c7e4fb7.webp",
     "titre": {
      "fr": "Céramique Infinity",
      "en": "Infinity Ceramic",
@@ -10999,7 +10999,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Céramique Infinity",
      "en": "Infinity Ceramic",
@@ -11314,7 +11314,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Cuisine vasque intégrée",
      "en": "Kitchen with integrated sink",
@@ -11327,7 +11327,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Salle de bain continue",
      "en": "Seamless bathroom",
@@ -11409,7 +11409,7 @@ CB.catalogue = [
     },
     "couleur1": "#181816",
     "couleur2": "#0a0a08",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/corian/resine-corian/nocturne/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -12925,7 +12925,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=75",
+    "image": "images/site/unsplash-1504328345606-18bbc8c9d7d1.webp",
     "titre": {
      "fr": "Cuisine familiale",
      "en": "Family kitchen",
@@ -12938,7 +12938,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Plan vasque naturel",
      "en": "Natural vanity top",
@@ -12998,7 +12998,7 @@ CB.catalogue = [
     },
     "couleur1": "#d8d4c8",
     "couleur2": "#b8b4a4",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/granit-sensa/delicatus/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -13020,7 +13020,7 @@ CB.catalogue = [
     },
     "couleur1": "#d4cfc4",
     "couleur2": "#b4afa4",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/granit-sensa/arctic-cream/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -13428,7 +13428,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Cuisine design sombre",
      "en": "Dark designer kitchen",
@@ -13441,7 +13441,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Cuisine lumineuse",
      "en": "Bright kitchen",
@@ -13454,7 +13454,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Salle de bain",
      "en": "Bathroom",
@@ -13492,7 +13492,7 @@ CB.catalogue = [
     },
     "couleur1": "#141414",
     "couleur2": "#080808",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/granit-texta/absolute-black/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -13514,7 +13514,7 @@ CB.catalogue = [
     },
     "couleur1": "#5a3828",
     "couleur2": "#3a2018",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/granit-texta/baltic-brown/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -13536,7 +13536,7 @@ CB.catalogue = [
     },
     "couleur1": "#d8d4cc",
     "couleur2": "#b8b4ac",
-    "image": "https://images.v2.plandetravail-erp.com/materialscatalog/pierre-naturelle/granit-texta/blanc-cristal/illustrations/echantillon.jpg",
+    "image": "",
     "image_grande": "",
     "lien": ""
    },
@@ -13965,7 +13965,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Marbre Texta",
      "en": "Texta Marble",
@@ -13978,7 +13978,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Marbre Texta",
      "en": "Texta Marble",
@@ -14195,7 +14195,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=75",
+    "image": "images/site/unsplash-1504328345606-18bbc8c9d7d1.webp",
     "titre": {
      "fr": "Quartzite Sensa",
      "en": "Sensa Quartzite",
@@ -14208,7 +14208,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Quartzite Sensa",
      "en": "Sensa Quartzite",
@@ -14221,7 +14221,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Quartzite Sensa",
      "en": "Sensa Quartzite",
@@ -14512,7 +14512,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Quartzite Texta",
      "en": "Texta Quartzite",
@@ -14525,7 +14525,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=75",
+    "image": "images/site/unsplash-1504328345606-18bbc8c9d7d1.webp",
     "titre": {
      "fr": "Quartzite Texta",
      "en": "Texta Quartzite",
@@ -14538,7 +14538,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Quartzite Texta",
      "en": "Texta Quartzite",
@@ -14887,7 +14887,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Pierre recyclée MStone",
      "en": "MStone Recycled Stone",
@@ -15170,7 +15170,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=75",
+    "image": "images/site/unsplash-1556909172-54557c7e4fb7.webp",
     "titre": {
      "fr": "Pierre recyclée Compac",
      "en": "Compac Recycled Stone",
@@ -15183,7 +15183,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75",
+    "image": "images/site/unsplash-1600607687939-ce8a6c25118c.webp",
     "titre": {
      "fr": "Pierre recyclée Compac",
      "en": "Compac Recycled Stone",
@@ -15196,7 +15196,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?w=600&q=75",
+    "image": "images/site/unsplash-1560185007-5f0bb1866cab.webp",
     "titre": {
      "fr": "Pierre recyclée Compac",
      "en": "Compac Recycled Stone",
@@ -15559,7 +15559,7 @@ CB.catalogue = [
   "photos_sont_des_realisations": false,
   "photos": [
    {
-    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75",
+    "image": "images/site/unsplash-1552321554-5fefe8c9ef14.webp",
     "titre": {
      "fr": "Pierre recyclée Ostrea",
      "en": "Ostrea Recycled Stone",
@@ -15572,7 +15572,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=75",
+    "image": "images/site/unsplash-1484154218962-a197022b5858.webp",
     "titre": {
      "fr": "Pierre recyclée Ostrea",
      "en": "Ostrea Recycled Stone",
@@ -15585,7 +15585,7 @@ CB.catalogue = [
     }
    },
    {
-    "image": "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?w=600&q=75",
+    "image": "images/site/unsplash-1556909190-eccf4a8bf97a.webp",
     "titre": {
      "fr": "Pierre recyclée Ostrea",
      "en": "Ostrea Recycled Stone",
