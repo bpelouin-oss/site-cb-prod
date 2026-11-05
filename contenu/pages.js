@@ -213,6 +213,11 @@ CB.pages = {
    "fr": "Message rapide",
    "en": "Quick message",
    "pt": "Mensagem rápida"
+  },
+  "surtitre_legal": {
+   "fr": "Informations légales",
+   "en": "Legal information",
+   "pt": "Informação legal"
   }
  },
  "hub": {
@@ -290,9 +295,9 @@ CB.pages = {
      "pt": "Acompanhamento da chapa à instalação"
     },
     "texte": {
-     "fr": "Depuis plus de 25 ans, CB Prod aide particuliers et professionnels à faire ce choix. Vous pouvez venir voir les dalles et les échantillons dans notre usine d'Igreja Nova, à Mafra, du lundi au vendredi, sur rendez-vous. À partir de vos plans ou de vos photos, un expert étudie votre demande et vous adresse un devis gratuit sous 48 h ouvrées.\n\nUne fois le matériau arrêté, nos métreurs prennent les cotes sur site. L'atelier découpe ensuite chaque pièce en CNC au dixième de millimètre, avant la finition à la main des chants et des découpes. Nos équipes livrent et posent partout en France et au Portugal, et la fourniture seule reste possible si vous avez votre poseur. Cuisinistes, architectes, artisans et distributeurs bénéficient de tarifs préférentiels et d'un interlocuteur dédié.",
-     "en": "For more than 25 years, CB Prod has helped homeowners and professionals make this choice. You are welcome to see the slabs and samples at our factory in Igreja Nova, Mafra, Monday to Friday, by appointment. From your plans or photos, an expert reviews your request and sends you a free quote within 48 working hours.\n\nOnce the material is chosen, our surveyors measure up on site. The workshop then CNC-cuts each piece to a tenth of a millimetre before the edges and cut-outs are finished by hand. Our own teams deliver and install throughout France and Portugal, and supply only is available if you have your own fitter. Kitchen specialists, architects, craftsmen and distributors benefit from preferential pricing and a dedicated contact.",
-     "pt": "Há mais de 25 anos que a CB Prod ajuda particulares e profissionais a fazer esta escolha. Pode vir ver as chapas e as amostras na nossa fábrica em Igreja Nova, Mafra, de segunda a sexta-feira, mediante marcação. A partir das suas plantas ou fotografias, um especialista analisa o pedido e envia-lhe um orçamento gratuito em 48 horas úteis.\n\nEscolhido o material, os nossos medidores fazem o levantamento no local. A oficina corta depois cada peça em CNC ao décimo de milímetro, antes do acabamento manual das arestas e dos recortes. As nossas equipas entregam e instalam em todo o Portugal e em França, e também pode optar apenas pelo fornecimento se tiver o seu instalador. Fabricantes de cozinhas, arquitetos, artesãos e distribuidores beneficiam de preços preferenciais e de um interlocutor dedicado."
+     "fr": "Forte d'un savoir-faire familial transmis depuis plus de trois générations, CB Prod aide particuliers et professionnels à faire ce choix. Vous pouvez venir voir les dalles et les échantillons dans notre usine d'Igreja Nova, à Mafra, du lundi au vendredi, sur rendez-vous. À partir de vos plans ou de vos photos, un expert étudie votre demande et vous adresse un devis gratuit sous 48 h ouvrées.\n\nUne fois le matériau arrêté, nos métreurs prennent les cotes sur site. L'atelier découpe ensuite chaque pièce en CNC au dixième de millimètre, avant la finition à la main des chants et des découpes. Nos équipes livrent et posent partout en France et au Portugal, et la fourniture seule reste possible si vous avez votre poseur. Cuisinistes, architectes, artisans et distributeurs bénéficient de tarifs préférentiels et d'un interlocuteur dédié.",
+     "en": "Drawing on family craftsmanship handed down over more than three generations, CB Prod helps homeowners and professionals make this choice. You are welcome to see the slabs and samples at our factory in Igreja Nova, Mafra, Monday to Friday, by appointment. From your plans or photos, an expert reviews your request and sends you a free quote within 48 working hours.\n\nOnce the material is chosen, our surveyors measure up on site. The workshop then CNC-cuts each piece to a tenth of a millimetre before the edges and cut-outs are finished by hand. Our own teams deliver and install throughout France and Portugal, and supply only is available if you have your own fitter. Kitchen specialists, architects, craftsmen and distributors benefit from preferential pricing and a dedicated contact.",
+     "pt": "Com um saber-fazer familiar transmitido há mais de três gerações, a CB Prod ajuda particulares e profissionais a fazer esta escolha. Pode vir ver as chapas e as amostras na nossa fábrica em Igreja Nova, Mafra, de segunda a sexta-feira, mediante marcação. A partir das suas plantas ou fotografias, um especialista analisa o pedido e envia-lhe um orçamento gratuito em 48 horas úteis.\n\nEscolhido o material, os nossos medidores fazem o levantamento no local. A oficina corta depois cada peça em CNC ao décimo de milímetro, antes do acabamento manual das arestas e dos recortes. As nossas equipas entregam e instalam em todo o Portugal e em França, e também pode optar apenas pelo fornecimento se tiver o seu instalador. Fabricantes de cozinhas, arquitetos, artesãos e distribuidores beneficiam de preços preferenciais e de um interlocutor dedicado."
     }
    }
   ],
@@ -3469,9 +3474,9 @@ CB.pages = {
     "pt": "Fábrica de bancadas em Mafra, Portugal | CB Prod"
    },
    "meta": {
-    "fr": "Fabricant de plans de travail au Portugal depuis plus de 25 ans : découpe CNC au 1/10 mm et finition main à Mafra. Visitez l'usine ou demandez un devis gratuit.",
-    "en": "Worktop manufacturer in Portugal for over 25 years: CNC cutting to 0.1 mm and hand finishing in Mafra. Visit our factory or request your free quote today.",
-    "pt": "Fábrica de bancadas em Mafra há mais de 25 anos: corte CNC ao décimo de milímetro e acabamento manual. Visite a fábrica ou peça o seu orçamento grátis."
+    "fr": "Fabricant de plans de travail au Portugal, savoir-faire familial depuis trois générations : découpe CNC au 1/10 mm et finition main à Mafra. Visitez l'usine ou demandez un devis gratuit.",
+    "en": "Worktop manufacturer in Portugal with three generations of craftsmanship: CNC cutting to 0.1 mm and hand finishing in Mafra. Visit our factory or request your free quote today.",
+    "pt": "Fábrica de bancadas em Mafra, com três gerações de saber-fazer: corte CNC ao décimo de milímetro e acabamento manual. Visite a fábrica ou peça o seu orçamento grátis."
    },
    "h1": {
     "fr": "Notre usine de Mafra, là où naissent vos plans de travail",
@@ -3479,9 +3484,9 @@ CB.pages = {
     "pt": "A nossa fábrica em Mafra, onde nascem as suas bancadas"
    },
    "intro": {
-    "fr": "CB Prod est un fabricant de plans de travail installé au Portugal, à Igreja Nova, près de Mafra. Depuis plus de 25 ans, nous y transformons des dalles de pierre, de quartz ou de céramique en pièces sur mesure, avec des machines de précision et des mains expérimentées.",
-    "en": "CB Prod is a worktop manufacturer based in Portugal, in Igreja Nova near Mafra. For more than 25 years we have been carefully turning slabs of stone, quartz and ceramic into made-to-measure pieces there, combining precision machinery with experienced hands.",
-    "pt": "A CB Prod é uma fábrica de bancadas instalada em Igreja Nova, perto de Mafra. Há mais de 25 anos que aqui transformamos chapas de pedra, quartzo e cerâmica em peças por medida, com máquinas de precisão e mãos experientes."
+    "fr": "CB Prod est un fabricant de plans de travail installé au Portugal, à Igreja Nova, près de Mafra. Héritiers d'un savoir-faire familial transmis depuis plus de trois générations, nous y transformons des dalles de pierre, de quartz ou de céramique en pièces sur mesure, avec des machines de précision et des mains expérimentées.",
+    "en": "CB Prod is a worktop manufacturer based in Portugal, in Igreja Nova near Mafra. Drawing on family craftsmanship handed down over more than three generations, we carefully turn slabs of stone, quartz and ceramic into made-to-measure pieces there, combining precision machinery with experienced hands.",
+    "pt": "A CB Prod é uma fábrica de bancadas instalada em Igreja Nova, perto de Mafra. Herdeiros de um saber-fazer familiar transmitido há mais de três gerações, aqui transformamos chapas de pedra, quartzo e cerâmica em peças por medida, com máquinas de precisão e mãos experientes."
    },
    "sections": [
     {
@@ -3630,9 +3635,9 @@ CB.pages = {
       "pt": "Uma gama alargada com documentação técnica"
      },
      "texte": {
-      "fr": "Nos partenaires professionnels accèdent aux gammes complètes de nos fournisseurs, réparties en plusieurs familles :\n\n- pierres naturelles : granit, marbre, quartzite, y compris les versions traitées Sensa et Texta ;\n- quartz : Silestone®, Compac, Stone Italiana et MStone ;\n- céramiques : Dekton®, The Size, Materia, Infinity et MStone ;\n- Corian®, Minéralis et pierres recyclées.\n\nNous sommes partenaire officiel de MStone Surfaces, qui distribue le Minéralis et la céramique grand format MStone. Pour ces gammes comme pour les autres, nous vous transmettons la documentation technique utile à vos dossiers et à vos clients.\n\nVous pouvez ainsi présenter à votre client une matière adaptée à son budget et à son usage, avec des informations fiables sur ses performances et son entretien.",
-      "en": "Our trade partners have access to our suppliers' full ranges, grouped into several families:\n\n- natural stone: granite, marble and quartzite, including the treated Sensa and Texta versions;\n- quartz: Silestone®, Compac, Stone Italiana and MStone;\n- ceramic: Dekton®, The Size, Materia, Infinity and MStone;\n- Corian®, Minéralis and recycled stone.\n\nWe are an official partner of MStone Surfaces, which distributes Minéralis and MStone large-format ceramic. For these ranges and all the others, we provide the technical documentation you need for your files and your clients.\n\nYou can then present your client with a material that suits their budget and use, backed by reliable information on performance and care.",
-      "pt": "Os nossos parceiros profissionais têm acesso às gamas completas dos nossos fornecedores, organizadas em várias famílias:\n\n- pedras naturais: granito, mármore e quartzito, incluindo as versões tratadas Sensa e Texta;\n- quartzo: Silestone®, Compac, Stone Italiana e MStone;\n- cerâmicas: Dekton®, The Size, Materia, Infinity e MStone;\n- Corian®, Minéralis e pedras recicladas.\n\nSomos parceiro oficial da MStone Surfaces, que distribui o Minéralis e a cerâmica de grande formato MStone. Para estas gamas e para as restantes, enviamos-lhe a documentação técnica de que precisa para os seus processos e para os seus clientes.\n\nPode assim apresentar ao seu cliente um material adequado ao orçamento e à utilização, com informação fiável sobre o desempenho e a manutenção."
+      "fr": "Nos partenaires professionnels accèdent aux gammes complètes de nos fournisseurs, réparties en plusieurs familles :\n\n- pierres naturelles : granit, marbre, quartzite, y compris les versions traitées Sensa et Texta ;\n- quartz : Silestone®, Compac, Stone Italiana et MStone ;\n- céramiques : Dekton®, The Size, Materia, Infinity et MStone ;\n- Corian®, Minéralis et pierres recyclées.\n\nNous travaillons avec MStone Surfaces, qui distribue le Minéralis et la céramique grand format MStone. Pour ces gammes comme pour les autres, nous vous transmettons la documentation technique utile à vos dossiers et à vos clients.\n\nVous pouvez ainsi présenter à votre client une matière adaptée à son budget et à son usage, avec des informations fiables sur ses performances et son entretien.",
+      "en": "Our trade partners have access to our suppliers' full ranges, grouped into several families:\n\n- natural stone: granite, marble and quartzite, including the treated Sensa and Texta versions;\n- quartz: Silestone®, Compac, Stone Italiana and MStone;\n- ceramic: Dekton®, The Size, Materia, Infinity and MStone;\n- Corian®, Minéralis and recycled stone.\n\nWe work with MStone Surfaces, which distributes Minéralis and MStone large-format ceramic. For these ranges and all the others, we provide the technical documentation you need for your files and your clients.\n\nYou can then present your client with a material that suits their budget and use, backed by reliable information on performance and care.",
+      "pt": "Os nossos parceiros profissionais têm acesso às gamas completas dos nossos fornecedores, organizadas em várias famílias:\n\n- pedras naturais: granito, mármore e quartzito, incluindo as versões tratadas Sensa e Texta;\n- quartzo: Silestone®, Compac, Stone Italiana e MStone;\n- cerâmicas: Dekton®, The Size, Materia, Infinity e MStone;\n- Corian®, Minéralis e pedras recicladas.\n\nTrabalhamos com a MStone Surfaces, que distribui o Minéralis e a cerâmica de grande formato MStone. Para estas gamas e para as restantes, enviamos-lhe a documentação técnica de que precisa para os seus processos e para os seus clientes.\n\nPode assim apresentar ao seu cliente um material adequado ao orçamento e à utilização, com informação fiável sobre o desempenho e a manutenção."
      }
     },
     {
@@ -4223,9 +4228,9 @@ CB.pages = {
       "pt": "Uma bancada por medida fabricada em Portugal"
      },
      "texte": {
-      "fr": "Tous nos plans de travail destinés à la France sont fabriqués dans notre usine d'Igreja Nova, près de Mafra. Nous y travaillons la pierre naturelle, le quartz, la céramique, le Corian®, le Minéralis et les pierres recyclées depuis plus de 25 ans.\n\nVotre pièce est découpée en CNC au dixième de millimètre, puis ses chants, ses angles et ses découpes sont finis à la main par nos artisans. Évier sous plan, plaque affleurante, crédence assortie, vasque intégrée : chaque détail est préparé à l'atelier selon les cotes relevées chez vous.\n\nÊtre fabricant nous permet de garder la maîtrise de toute la chaîne. La personne qui étudie votre devis travaille avec celles qui découpent et posent votre plan, et les délais vous sont annoncés dès la proposition.",
-      "en": "Every worktop we supply to France is made in our factory at Igreja Nova, near Mafra. We have been working natural stone, quartz, ceramic, Corian®, Minéralis and recycled stone there for more than 25 years.\n\nYour piece is CNC-cut to a tenth of a millimetre, then its edges, corners and cut-outs are finished by hand by our craftsmen. Undermount sink, flush hob, matching splashback, integrated basin: every detail is prepared in the workshop from the measurements taken in your home.\n\nBeing the manufacturer means we stay in control of the whole process. The person who prepares your quote works alongside those who cut and fit your worktop, and lead times are confirmed in the proposal.",
-      "pt": "Todas as bancadas que enviamos para França são fabricadas na nossa fábrica em Igreja Nova, perto de Mafra. Trabalhamos ali pedra natural, quartzo, cerâmica, Corian®, Minéralis e pedras recicladas há mais de 25 anos.\n\nA peça é cortada em CNC ao décimo de milímetro e, depois, os rebordos, os cantos e os recortes são acabados à mão pelos nossos artesãos. Lava-loiça por baixo, placa embutida, frente de cozinha a condizer, lavatório integrado: cada pormenor é preparado na oficina a partir das medidas tiradas no local.\n\nSer fabricante permite-nos controlar todo o processo. Quem prepara o orçamento trabalha com quem corta e instala a bancada, e os prazos são confirmados logo na proposta."
+      "fr": "Tous nos plans de travail destinés à la France sont fabriqués dans notre usine d'Igreja Nova, près de Mafra. Nous y travaillons la pierre naturelle, le quartz, la céramique, le Corian®, le Minéralis et les pierres recyclées, avec un savoir-faire familial transmis depuis plus de trois générations.\n\nVotre pièce est découpée en CNC au dixième de millimètre, puis ses chants, ses angles et ses découpes sont finis à la main par nos artisans. Évier sous plan, plaque affleurante, crédence assortie, vasque intégrée : chaque détail est préparé à l'atelier selon les cotes relevées chez vous.\n\nÊtre fabricant nous permet de garder la maîtrise de toute la chaîne. La personne qui étudie votre devis travaille avec celles qui découpent et posent votre plan, et les délais vous sont annoncés dès la proposition.",
+      "en": "Every worktop we supply to France is made in our factory at Igreja Nova, near Mafra. We have been working natural stone, quartz, ceramic, Corian®, Minéralis and recycled stone there, drawing on family craftsmanship handed down over more than three generations.\n\nYour piece is CNC-cut to a tenth of a millimetre, then its edges, corners and cut-outs are finished by hand by our craftsmen. Undermount sink, flush hob, matching splashback, integrated basin: every detail is prepared in the workshop from the measurements taken in your home.\n\nBeing the manufacturer means we stay in control of the whole process. The person who prepares your quote works alongside those who cut and fit your worktop, and lead times are confirmed in the proposal.",
+      "pt": "Todas as bancadas que enviamos para França são fabricadas na nossa fábrica em Igreja Nova, perto de Mafra. Trabalhamos ali pedra natural, quartzo, cerâmica, Corian®, Minéralis e pedras recicladas, com um saber-fazer familiar transmitido há mais de três gerações.\n\nA peça é cortada em CNC ao décimo de milímetro e, depois, os rebordos, os cantos e os recortes são acabados à mão pelos nossos artesãos. Lava-loiça por baixo, placa embutida, frente de cozinha a condizer, lavatório integrado: cada pormenor é preparado na oficina a partir das medidas tiradas no local.\n\nSer fabricante permite-nos controlar todo o processo. Quem prepara o orçamento trabalha com quem corta e instala a bancada, e os prazos são confirmados logo na proposta."
      }
     },
     {
@@ -4342,9 +4347,9 @@ CB.pages = {
       "pt": "Uma fábrica de bancadas em Mafra, perto de Lisboa"
      },
      "texte": {
-      "fr": "CB Prod fabrique des plans de travail sur mesure depuis plus de 25 ans dans son usine d'Igreja Nova, sur l'Estrada Nacional N°9, au kilomètre 29. Cette implantation dans la région de Lisbonne nous place à proximité de nos clients portugais, particuliers comme professionnels.\n\nNous y façonnons toutes nos familles de matériaux : granit, marbre et quartzite, quartz Silestone®, Compac, Stone Italiana ou MStone, céramiques grand format, Corian®, Minéralis et pierres recyclées. Chaque pièce est découpée en CNC au dixième de millimètre, puis finie à la main.\n\nCuisines, salles de bains, tables, comptoirs de bar ou habillages de cheminée : la plupart des projets que nous réalisons pour la région partent de ces ateliers, sous le regard de l'équipe qui a étudié votre devis.",
-      "en": "CB Prod has been making bespoke worktops for over 25 years at its factory in Igreja Nova, on the Estrada Nacional N°9 at kilometre 29. Being based in the Lisbon area keeps us close to our Portuguese clients, both homeowners and professionals.\n\nWe craft every one of our material families here: granite, marble and quartzite, Silestone®, Compac, Stone Italiana and MStone quartz, large-format ceramics, Corian®, Minéralis and recycled stone. Each piece is CNC-cut to a tenth of a millimetre, then finished by hand.\n\nKitchens, bathrooms, tables, bar counters and fireplace surrounds: the projects we carry out for the region leave these workshops under the eye of the team that prepared your quote.",
-      "pt": "A CB Prod fabrica bancadas por medida há mais de 25 anos na sua fábrica em Igreja Nova, na Estrada Nacional N°9, ao quilómetro 29. Estar na região de Lisboa aproxima-nos dos nossos clientes em Portugal, particulares e profissionais.\n\nAqui trabalhamos todas as famílias de materiais: granito, mármore e quartzito, quartzo Silestone®, Compac, Stone Italiana ou MStone, cerâmicas de grande formato, Corian®, Minéralis e pedras recicladas. Cada peça é cortada em CNC ao décimo de milímetro e depois acabada à mão.\n\nCozinhas, casas de banho, mesas, balcões de bar ou revestimentos de lareira: os projetos que realizamos para a região saem destas oficinas, acompanhados pela equipa que preparou o seu orçamento."
+      "fr": "Avec un savoir-faire familial transmis depuis plus de trois générations, CB Prod fabrique des plans de travail sur mesure dans son usine d'Igreja Nova, sur l'Estrada Nacional N°9, au kilomètre 29. Cette implantation dans la région de Lisbonne nous place à proximité de nos clients portugais, particuliers comme professionnels.\n\nNous y façonnons toutes nos familles de matériaux : granit, marbre et quartzite, quartz Silestone®, Compac, Stone Italiana ou MStone, céramiques grand format, Corian®, Minéralis et pierres recyclées. Chaque pièce est découpée en CNC au dixième de millimètre, puis finie à la main.\n\nCuisines, salles de bains, tables, comptoirs de bar ou habillages de cheminée : la plupart des projets que nous réalisons pour la région partent de ces ateliers, sous le regard de l'équipe qui a étudié votre devis.",
+      "en": "With family craftsmanship handed down over more than three generations, CB Prod makes bespoke worktops at its factory in Igreja Nova, on the Estrada Nacional N°9 at kilometre 29. Being based in the Lisbon area keeps us close to our Portuguese clients, both homeowners and professionals.\n\nWe craft every one of our material families here: granite, marble and quartzite, Silestone®, Compac, Stone Italiana and MStone quartz, large-format ceramics, Corian®, Minéralis and recycled stone. Each piece is CNC-cut to a tenth of a millimetre, then finished by hand.\n\nKitchens, bathrooms, tables, bar counters and fireplace surrounds: the projects we carry out for the region leave these workshops under the eye of the team that prepared your quote.",
+      "pt": "Com um saber-fazer familiar transmitido há mais de três gerações, a CB Prod fabrica bancadas por medida na sua fábrica em Igreja Nova, na Estrada Nacional N°9, ao quilómetro 29. Estar na região de Lisboa aproxima-nos dos nossos clientes em Portugal, particulares e profissionais.\n\nAqui trabalhamos todas as famílias de materiais: granito, mármore e quartzito, quartzo Silestone®, Compac, Stone Italiana ou MStone, cerâmicas de grande formato, Corian®, Minéralis e pedras recicladas. Cada peça é cortada em CNC ao décimo de milímetro e depois acabada à mão.\n\nCozinhas, casas de banho, mesas, balcões de bar ou revestimentos de lareira: os projetos que realizamos para a região saem destas oficinas, acompanhados pela equipa que preparou o seu orçamento."
      }
     },
     {
@@ -4422,6 +4427,272 @@ CB.pages = {
     {
      "@type": "Country",
      "name": "Portugal"
+    }
+   ]
+  },
+  {
+   "id": "mentions-legales",
+   "type": "legal",
+   "slug": {
+    "fr": "mentions-legales",
+    "en": "legal-notice",
+    "pt": "informacao-legal"
+   },
+   "nom": {
+    "fr": "Mentions légales",
+    "en": "Legal notice",
+    "pt": "Informação legal"
+   },
+   "surtitre": {
+    "fr": "Informations légales",
+    "en": "Legal information",
+    "pt": "Informação legal"
+   },
+   "liens": [],
+   "title": {
+    "fr": "Mentions légales | CB Prod",
+    "en": "Legal notice | CB Prod",
+    "pt": "Informação legal | CB Prod"
+   },
+   "meta": {
+    "fr": "Mentions légales du site cbproducao.com : éditeur CBPROD, LDA (NIPC PT514935111), Mafra, Portugal, hébergeur, médiation de la consommation et Livro de Reclamações.",
+    "en": "Legal notice for cbproducao.com: publisher CBPROD, LDA (NIPC PT514935111), Mafra, Portugal, host, consumer dispute resolution and complaints book.",
+    "pt": "Informação legal do site cbproducao.com: CBPROD, LDA (NIPC PT514935111), Mafra, Portugal, alojamento, resolução alternativa de litígios e Livro de Reclamações."
+   },
+   "h1": {
+    "fr": "Mentions légales",
+    "en": "Legal notice",
+    "pt": "Informação legal"
+   },
+   "intro": {
+    "fr": "Le site www.cbproducao.com est édité par CBPROD, LDA, société de fabrication du groupe CB Surfaces au Portugal.",
+    "en": "The website www.cbproducao.com is published by CBPROD, LDA, the manufacturing company of the CB Surfaces group in Portugal.",
+    "pt": "O site www.cbproducao.com é editado pela CBPROD, LDA, empresa de fabrico do grupo CB Surfaces em Portugal."
+   },
+   "faq": [],
+   "sections": [
+    {
+     "titre": {
+      "fr": "Éditeur du site",
+      "en": "Publisher",
+      "pt": "Entidade responsável pelo site"
+     },
+     "texte": {
+      "fr": "- Raison sociale : CBPROD, LDA (nom commercial : CB Prod / CB Produção)\n- Forme juridique : sociedade por quotas (société à responsabilité limitée de droit portugais)\n- Siège et usine : Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal\n- NIPC et numéro de TVA intracommunautaire : PT514935111\n- Date de création : 6 juin 2018\n- Capital social : [à compléter]\n- Immatriculation : Conservatória do Registo Comercial de [à compléter]\n- Gérant et directeur de la publication : [à compléter]\n- Téléphone : +351 219 672 216 (Portugal) · +33 1 88 32 64 49 (France)\n- E-mail : direction@cbproducao.com\n\nCB Prod est la société de fabrication du groupe CB Surfaces.",
+      "en": "- Company name: CBPROD, LDA (trading as CB Prod / CB Produção)\n- Legal form: sociedade por quotas (Portuguese private limited company)\n- Registered office and factory: Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal\n- NIPC and EU VAT number: PT514935111\n- Incorporated: 6 June 2018\n- Share capital: [to be completed]\n- Registration: Conservatória do Registo Comercial de [to be completed]\n- Managing director and publication director: [to be completed]\n- Phone: +351 219 672 216 (Portugal) · +33 1 88 32 64 49 (France)\n- Email: direction@cbproducao.com\n\nCB Prod is the manufacturing company of the CB Surfaces group.",
+      "pt": "- Denominação social: CBPROD, LDA (nome comercial: CB Prod / CB Produção)\n- Forma jurídica: sociedade por quotas\n- Sede e fábrica: Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal\n- NIPC e número de IVA intracomunitário: PT514935111\n- Data de constituição: 6 de junho de 2018\n- Capital social: [a completar]\n- Registo: Conservatória do Registo Comercial de [a completar]\n- Gerente e diretor da publicação: [a completar]\n- Telefone: +351 219 672 216 (Portugal) · +33 1 88 32 64 49 (França)\n- E-mail: direction@cbproducao.com\n\nA CB Prod é a empresa de fabrico do grupo CB Surfaces."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Hébergement",
+      "en": "Hosting",
+      "pt": "Alojamento"
+     },
+     "texte": {
+      "fr": "Le site est hébergé par PlanetHoster (www.planethoster.com), Laval, Québec, Canada.",
+      "en": "The website is hosted by PlanetHoster (www.planethoster.com), Laval, Quebec, Canada.",
+      "pt": "O site está alojado na PlanetHoster (www.planethoster.com), Laval, Quebeque, Canadá."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Livro de Reclamações",
+      "en": "Complaints book (Livro de Reclamações)",
+      "pt": "Livro de Reclamações"
+     },
+     "texte": {
+      "fr": "Conformément à la loi portugaise, vous pouvez déposer une réclamation dans le Livro de Reclamações électronique : www.livroreclamacoes.pt. Un livre de réclamations papier est également disponible à l'usine.",
+      "en": "In accordance with Portuguese law, you may file a complaint in the electronic complaints book: www.livroreclamacoes.pt. A paper complaints book is also available at the factory.",
+      "pt": "Nos termos da lei, pode apresentar uma reclamação no Livro de Reclamações Eletrónico: www.livroreclamacoes.pt. O livro de reclamações em papel está também disponível na fábrica."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Règlement des litiges de consommation",
+      "en": "Consumer dispute resolution",
+      "pt": "Resolução alternativa de litígios de consumo"
+     },
+     "texte": {
+      "fr": "En cas de litige, nous vous invitons à nous contacter d'abord à direction@cbproducao.com : nous cherchons toujours une solution amiable.\n\nÀ défaut d'accord, vous pouvez recourir gratuitement ou à faible coût à une entité de résolution alternative des litiges de consommation (loi portugaise n° 144/2015) :\n- Centro de Arbitragem de Conflitos de Consumo de Lisboa, compétent pour les contrats conclus dans la région de Lisbonne, dont Mafra, jusqu'à 5 000 € : www.centroarbitragemlisboa.pt\n- CNIACC, Centro Nacional de Informação e Arbitragem de Conflitos de Consumo, compétent à titre complémentaire : www.cniacc.pt\n\nSi vous résidez en France ou dans un autre pays de l'Union européenne, le Centre Européen des Consommateurs de votre pays peut vous accompagner gratuitement (en France : www.europe-consommateurs.eu).\n\nPlus d'informations sur le Portail du consommateur : www.consumidor.gov.pt.",
+      "en": "If a dispute arises, please contact us first at direction@cbproducao.com: we always look for an amicable solution.\n\nIf no agreement is reached, you may refer the matter, free of charge or at low cost, to an alternative consumer dispute resolution body (Portuguese Law No. 144/2015):\n- Centro de Arbitragem de Conflitos de Consumo de Lisboa, competent for contracts concluded in the Lisbon area, including Mafra, up to €5,000: www.centroarbitragemlisboa.pt\n- CNIACC, Centro Nacional de Informação e Arbitragem de Conflitos de Consumo, with complementary competence: www.cniacc.pt\n\nIf you live in France or another EU country, the European Consumer Centre of your country can help you free of charge (in France: www.europe-consommateurs.eu).\n\nMore information on the Consumer Portal: www.consumidor.gov.pt.",
+      "pt": "Em caso de litígio, contacte-nos primeiro através de direction@cbproducao.com: procuramos sempre uma solução amigável.\n\nNa falta de acordo, pode recorrer a uma entidade de resolução alternativa de litígios de consumo (Lei n.º 144/2015):\n- Centro de Arbitragem de Conflitos de Consumo de Lisboa, competente para contratos celebrados na Área Metropolitana de Lisboa, incluindo Mafra, até 5 000 €: www.centroarbitragemlisboa.pt\n- CNIACC, Centro Nacional de Informação e Arbitragem de Conflitos de Consumo, com competência supletiva: www.cniacc.pt\n\nSe residir noutro país da União Europeia, o Centro Europeu do Consumidor do seu país pode ajudá-lo gratuitamente.\n\nMais informações no Portal do Consumidor: www.consumidor.gov.pt."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Propriété intellectuelle et marques",
+      "en": "Intellectual property and trademarks",
+      "pt": "Propriedade intelectual e marcas"
+     },
+     "texte": {
+      "fr": "Les textes, la mise en page et les photographies propres à CB Prod sont protégés : toute reproduction sans autorisation écrite est interdite.\n\nLes marques citées sur ce site (notamment Silestone®, Dekton®, Sensa®, Corian®, Neolith®, Compac®, Minéralis) appartiennent à leurs titulaires respectifs. CB Prod travaille avec les plus grandes marques de matériaux ; leur mention n'implique pas de partenariat officiel, sauf indication contraire. Certaines photographies de matériaux sont fournies par les fabricants ou par le groupe CB Surfaces, avec leur autorisation.",
+      "en": "The texts, layout and photographs belonging to CB Prod are protected: any reproduction without written permission is prohibited.\n\nThe brands mentioned on this website (including Silestone®, Dekton®, Sensa®, Corian®, Neolith®, Compac®, Minéralis) belong to their respective owners. CB Prod works with the leading material brands; mentioning them does not imply an official partnership unless stated otherwise. Some material photographs are provided by the manufacturers or by the CB Surfaces group, with their permission.",
+      "pt": "Os textos, o grafismo e as fotografias próprias da CB Prod estão protegidos: é proibida qualquer reprodução sem autorização escrita.\n\nAs marcas citadas neste site (nomeadamente Silestone®, Dekton®, Sensa®, Corian®, Neolith®, Compac®, Minéralis) pertencem aos respetivos titulares. A CB Prod trabalha com as maiores marcas de materiais; a sua referência não implica uma parceria oficial, salvo indicação em contrário. Algumas fotografias de materiais são cedidas pelos fabricantes ou pelo grupo CB Surfaces, com a respetiva autorização."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Données personnelles",
+      "en": "Personal data",
+      "pt": "Dados pessoais"
+     },
+     "texte": {
+      "fr": "La façon dont nous traitons vos données est expliquée dans notre politique de confidentialité, accessible en bas de chaque page.",
+      "en": "How we handle your data is explained in our privacy policy, linked at the bottom of every page.",
+      "pt": "A forma como tratamos os seus dados está explicada na nossa política de privacidade, disponível no fundo de cada página."
+     }
+    }
+   ]
+  },
+  {
+   "id": "confidentialite",
+   "type": "legal",
+   "slug": {
+    "fr": "politique-de-confidentialite",
+    "en": "privacy-policy",
+    "pt": "politica-de-privacidade"
+   },
+   "nom": {
+    "fr": "Politique de confidentialité",
+    "en": "Privacy policy",
+    "pt": "Política de privacidade"
+   },
+   "surtitre": {
+    "fr": "Vos données",
+    "en": "Your data",
+    "pt": "Os seus dados"
+   },
+   "liens": [],
+   "title": {
+    "fr": "Politique de confidentialité (RGPD) | CB Prod",
+    "en": "Privacy policy (GDPR) | CB Prod",
+    "pt": "Política de privacidade (RGPD) | CB Prod"
+   },
+   "meta": {
+    "fr": "Comment CB Prod utilise et protège les données de vos demandes de devis et de contact : finalités, durée de conservation de 3 ans, vos droits RGPD.",
+    "en": "How CB Prod uses and protects the data from your quote and contact requests: purposes, 3-year retention period and your GDPR rights.",
+    "pt": "Como a CB Prod utiliza e protege os dados dos seus pedidos de orçamento e contacto: finalidades, conservação de 3 anos e os seus direitos RGPD."
+   },
+   "h1": {
+    "fr": "Politique de confidentialité",
+    "en": "Privacy policy",
+    "pt": "Política de privacidade"
+   },
+   "intro": {
+    "fr": "Nous utilisons vos données uniquement pour répondre à vos demandes et suivre votre projet. Nous ne les vendons jamais et ne les utilisons pas à des fins publicitaires.",
+    "en": "We use your data only to answer your requests and follow up on your project. We never sell it and do not use it for advertising.",
+    "pt": "Utilizamos os seus dados apenas para responder aos seus pedidos e acompanhar o seu projeto. Nunca os vendemos nem os usamos para fins publicitários."
+   },
+   "faq": [],
+   "sections": [
+    {
+     "titre": {
+      "fr": "Responsable du traitement",
+      "en": "Data controller",
+      "pt": "Responsável pelo tratamento"
+     },
+     "texte": {
+      "fr": "CBPROD, LDA (CB Prod), Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal. NIPC PT514935111. Contact pour toute question sur vos données : direction@cbproducao.com.",
+      "en": "CBPROD, LDA (CB Prod), Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal. NIPC PT514935111. Contact for any question about your data: direction@cbproducao.com.",
+      "pt": "CBPROD, LDA (CB Prod), Estrada Nacional N°9, Km 29, Igreja Nova, 2640-339 Mafra, Portugal. NIPC PT514935111. Contacto para qualquer questão sobre os seus dados: direction@cbproducao.com."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Données collectées",
+      "en": "Data we collect",
+      "pt": "Dados recolhidos"
+     },
+     "texte": {
+      "fr": "Uniquement ce que vous saisissez dans les formulaires « Demande de devis » et « Contact » :\n- vos coordonnées : prénom, nom, e-mail, téléphone, code postal, société (facultative) ;\n- votre projet : type de projet, matériau, dimensions, finition, pose, budget, description.\n\nNous conservons aussi la date de la demande. Votre adresse IP est utilisée de façon brève et chiffrée pour bloquer les envois abusifs (spam) ; elle n'est pas conservée en clair.",
+      "en": "Only what you enter in the \"Request a quote\" and \"Contact\" forms:\n- your contact details: first name, last name, email, phone, postcode, company (optional);\n- your project: project type, material, dimensions, finish, fitting, budget, description.\n\nWe also keep the date of the request. Your IP address is used briefly, in hashed form, to block abusive submissions (spam); it is not stored in clear.",
+      "pt": "Apenas o que preenche nos formulários «Pedido de orçamento» e «Contacto»:\n- os seus contactos: nome próprio, apelido, e-mail, telefone, código postal, empresa (opcional);\n- o seu projeto: tipo de projeto, material, dimensões, acabamento, instalação, orçamento, descrição.\n\nGuardamos também a data do pedido. O seu endereço IP é utilizado de forma breve e cifrada para bloquear envios abusivos (spam); não é guardado em claro."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Pourquoi nous les utilisons",
+      "en": "Why we use it",
+      "pt": "Para que os utilizamos"
+     },
+     "texte": {
+      "fr": "- répondre à votre demande et établir votre devis (mesures précontractuelles prises à votre demande, article 6.1.b du RGPD) ;\n- assurer le suivi commercial de votre projet et, si vous devenez client, l'exécution du contrat (article 6.1.b) ;\n- respecter nos obligations comptables et fiscales pour les clients (article 6.1.c) ;\n- protéger le site contre le spam (intérêt légitime, article 6.1.f).\n\nVous recevez un accusé de réception par e-mail après chaque demande. Nous ne vous envoyons pas de lettre d'information sans votre accord.",
+      "en": "- to answer your request and prepare your quote (pre-contractual steps taken at your request, GDPR Article 6(1)(b));\n- to follow up on your project and, if you become a customer, to perform the contract (Article 6(1)(b));\n- to meet our accounting and tax obligations for customers (Article 6(1)(c));\n- to protect the website from spam (legitimate interest, Article 6(1)(f)).\n\nYou receive an acknowledgement email after each request. We do not send you newsletters without your consent.",
+      "pt": "- responder ao seu pedido e preparar o seu orçamento (diligências pré-contratuais a seu pedido, artigo 6.º, n.º 1, alínea b) do RGPD);\n- acompanhar o seu projeto e, se se tornar cliente, executar o contrato (alínea b);\n- cumprir as nossas obrigações contabilísticas e fiscais relativas a clientes (alínea c);\n- proteger o site contra spam (interesse legítimo, alínea f).\n\nRecebe uma confirmação por e-mail após cada pedido. Não lhe enviamos newsletters sem o seu consentimento."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Qui y a accès",
+      "en": "Who has access",
+      "pt": "Quem tem acesso"
+     },
+     "texte": {
+      "fr": "Seule l'équipe commerciale et technique de CB Prod, et si besoin pour votre projet, les équipes du groupe CB Surfaces. Nos prestataires techniques y accèdent uniquement pour faire fonctionner le service : l'hébergeur du site (PlanetHoster), notre messagerie professionnelle et, à terme, notre logiciel de gestion commerciale. Aucune donnée n'est vendue ni cédée à des tiers.",
+      "en": "Only CB Prod's sales and technical team and, where needed for your project, the CB Surfaces group teams. Our technical providers access it only to run the service: the website host (PlanetHoster), our business email and, in future, our sales management software. No data is sold or passed on to third parties.",
+      "pt": "Apenas a equipa comercial e técnica da CB Prod e, se necessário para o seu projeto, as equipas do grupo CB Surfaces. Os nossos prestadores técnicos acedem apenas para assegurar o serviço: o alojamento do site (PlanetHoster), o nosso e-mail profissional e, futuramente, o nosso software de gestão comercial. Nenhum dado é vendido ou cedido a terceiros."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Durée de conservation",
+      "en": "How long we keep it",
+      "pt": "Prazo de conservação"
+     },
+     "texte": {
+      "fr": "Vos demandes sont conservées 3 ans après notre dernier contact commercial, puis supprimées. Si vous devenez client, les documents de facturation sont conservés pendant la durée imposée par la loi portugaise (10 ans).",
+      "en": "Your requests are kept for 3 years after our last business contact, then deleted. If you become a customer, invoicing records are kept for the period required by Portuguese law (10 years).",
+      "pt": "Os seus pedidos são conservados durante 3 anos após o último contacto comercial e depois eliminados. Se se tornar cliente, os documentos de faturação são conservados durante o prazo exigido pela lei portuguesa (10 anos)."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Sécurité",
+      "en": "Security",
+      "pt": "Segurança"
+     },
+     "texte": {
+      "fr": "Le site fonctionne uniquement en connexion chiffrée (HTTPS). Les demandes sont stockées hors de la partie publique du serveur, et l'accès est réservé aux personnes habilitées.",
+      "en": "The website runs only over an encrypted connection (HTTPS). Requests are stored outside the public part of the server, and access is restricted to authorised staff.",
+      "pt": "O site funciona apenas com ligação cifrada (HTTPS). Os pedidos são guardados fora da parte pública do servidor e o acesso está reservado a pessoas autorizadas."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Vos droits",
+      "en": "Your rights",
+      "pt": "Os seus direitos"
+     },
+     "texte": {
+      "fr": "Vous pouvez à tout moment demander à accéder à vos données, les corriger, les supprimer, en limiter l'utilisation, vous opposer à leur traitement ou les recevoir dans un format courant (portabilité). Écrivez-nous à direction@cbproducao.com : nous répondons sous un mois.\n\nSi vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNPD, l'autorité portugaise de protection des données (www.cnpd.pt), ou, si vous résidez en France, à la CNIL (www.cnil.fr).",
+      "en": "You can at any time ask to access, correct or delete your data, restrict its use, object to its processing or receive it in a common format (portability). Write to us at direction@cbproducao.com: we reply within one month.\n\nIf you believe your rights are not being respected, you can complain to the CNPD, the Portuguese data protection authority (www.cnpd.pt), or to the data protection authority of your country of residence.",
+      "pt": "Pode, a qualquer momento, pedir para aceder aos seus dados, retificá-los, apagá-los, limitar a sua utilização, opor-se ao seu tratamento ou recebê-los num formato corrente (portabilidade). Escreva-nos para direction@cbproducao.com: respondemos no prazo de um mês.\n\nSe considerar que os seus direitos não são respeitados, pode apresentar reclamação à CNPD, Comissão Nacional de Proteção de Dados (www.cnpd.pt)."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Cookies et services externes",
+      "en": "Cookies and external services",
+      "pt": "Cookies e serviços externos"
+     },
+     "texte": {
+      "fr": "Ce site n'utilise aucun cookie publicitaire ni outil de mesure d'audience, et n'affiche donc pas de bandeau cookies. Les polices de caractères sont hébergées sur notre propre serveur.\n\nLa carte de l'usine (OpenStreetMap) ne se charge que si vous cliquez sur « Afficher la carte » : votre adresse IP est alors transmise à la Fondation OpenStreetMap. Certaines photos de matériaux sont affichées depuis les sites de leurs fabricants, qui reçoivent alors votre adresse IP comme pour toute image en ligne.",
+      "en": "This website uses no advertising cookies or audience measurement tools, so it shows no cookie banner. Fonts are hosted on our own server.\n\nThe factory map (OpenStreetMap) only loads if you click \"Show map\": your IP address is then sent to the OpenStreetMap Foundation. Some material photos are displayed from their manufacturers' websites, which then receive your IP address as with any online image.",
+      "pt": "Este site não utiliza cookies publicitários nem ferramentas de medição de audiências, pelo que não apresenta aviso de cookies. As fontes tipográficas estão alojadas no nosso próprio servidor.\n\nO mapa da fábrica (OpenStreetMap) só é carregado se clicar em «Mostrar o mapa»: o seu endereço IP é então transmitido à OpenStreetMap Foundation. Algumas fotografias de materiais são apresentadas a partir dos sites dos respetivos fabricantes, que recebem o seu endereço IP como acontece com qualquer imagem online."
+     }
+    },
+    {
+     "titre": {
+      "fr": "Mise à jour",
+      "en": "Updates",
+      "pt": "Atualização"
+     },
+     "texte": {
+      "fr": "Dernière mise à jour : 5 novembre 2026.",
+      "en": "Last updated: 5 November 2026.",
+      "pt": "Última atualização: 5 de novembro de 2026."
+     }
     }
    ]
   }

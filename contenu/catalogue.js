@@ -20,9 +20,9 @@ CB.catalogue = [
    "pt": "Minéralis"
   },
   "fournisseur": {
-   "fr": "◈ MStone Surfaces — partenaire officiel",
-   "en": "◈ MStone Surfaces — official partner",
-   "pt": "◈ MStone Surfaces — parceiro oficial"
+   "fr": "◈ MStone Surfaces",
+   "en": "◈ MStone Surfaces",
+   "pt": "◈ MStone Surfaces"
   },
   "description": {
    "fr": "La surface minérale composite qui remplace le quartz. Chaque tranche intègre 85 % de verre recyclé de première production — récupéré lors de sa première fabrication, jamais du verre de consommation — avec une faible teneur en silice, pensée pour ceux qui découpent et posent la matière. Nous la façonnons sur mesure dans notre atelier de Mafra.",

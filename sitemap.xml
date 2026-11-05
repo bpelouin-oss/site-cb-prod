@@ -1056,4 +1056,52 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/bancadas-lisboa-portugal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/plan-de-travail-portugal-lisbonne/"/>
   </url>
+  <url>
+    <loc>https://www.cbproducao.com/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/legal-notice/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/informacao-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://www.cbproducao.com/en/legal-notice/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/legal-notice/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/informacao-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://www.cbproducao.com/pt/informacao-legal/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/legal-notice/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/informacao-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://www.cbproducao.com/politique-de-confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://www.cbproducao.com/en/privacy-policy/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://www.cbproducao.com/pt/politica-de-privacidade/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.cbproducao.com/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.cbproducao.com/pt/politica-de-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.cbproducao.com/politique-de-confidentialite/"/>
+  </url>
 </urlset>

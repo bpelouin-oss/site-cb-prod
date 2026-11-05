@@ -143,9 +143,9 @@
       var eyebrow = pg.kind === 'gamme' ? strip(tr(pg.g.fournisseur, L)).replace(/^[◈\s]+/, '') : (strip(tr(d.surtitre, L)) || lb('surtitre_' + pg.kind, L));
       return '<section class="pg-hero dark"' + (bg ? ' style="--pg-bg:url(\'' + esc(bg) + '\')"' : '') + '>\n<div class="wrap">\n' + crumbs(pg, L) +
         '\n<p class="eyebrow">' + esc(eyebrow) + '</p>\n<h1 class="pg-h1">' + inline(tr(d.h1, L) || name(pg, L)) + '</h1>\n' +
-        (tr(d.intro, L) ? '<p class="lead pg-intro">' + inline(tr(d.intro, L)) + '</p>\n' : '') +
+        (tr(d.intro, L) ? '<p class="lead pg-intro">' + inline(tr(d.intro, L)) + '</p>\n' : '') + (pg.kind === 'legal' ? '</div>\n</section>\n' :
         '<div class="btn-row"><a class="btn btn-gold" href="' + devis + '">' + esc(lb('cta_devis', L)) + ' <span aria-hidden="true" class="ar">→</span></a>' +
-        '<a class="btn btn-ghost-w" href="' + tel[0] + '">' + esc(lb('appeler', L)) + ' ' + esc(tel[1]) + '</a></div>\n</div>\n</section>\n';
+        '<a class="btn btn-ghost-w" href="' + tel[0] + '">' + esc(lb('appeler', L)) + ' ' + esc(tel[1]) + '</a></div>\n</div>\n</section>\n');
     }
     function sections(d, L, from) {
       var s = (d.sections || []).filter(function (x) { return strip(tr(x.texte, L)).trim(); });
@@ -229,7 +229,7 @@
         '<div><p class="ft-h">' + esc(tx('pied.17', L)) + '</p><ul>' +
         '<li><a href="tel:+33188326449">+33 (1) 88 32 64 49</a></li><li><a href="tel:+351219672216">+351 219 672 216</a></li>' +
         '<li><a href="mailto:direction@cbproducao.com">direction@cbproducao.com</a></li><li>' + esc(tx('contact.16', L)) + '</li></ul></div>\n</div>\n' +
-        footerLinks(pg, L) + '\n<div class="ft-bot"><p>© ' + today.slice(0, 4) + ' CB Prod · ' + esc(lb('droits', L)) + '</p><span class="ft-legal"><span>' + esc(tx('pied.25', L)) + '</span>' + (tx('pied.26', L) ? '<a class="ext" href="https://www.livroreclamacoes.pt/Inicio/" rel="noopener" target="_blank">' + esc(tx('pied.26', L)) + '</a>' : '') + '</span></div>\n</div>\n</footer>\n' +
+        footerLinks(pg, L) + '\n<div class="ft-bot"><p>© ' + today.slice(0, 4) + ' CB Prod · ' + esc(lb('droits', L)) + '</p><span class="ft-legal"><span>' + esc(tx('pied.25', L)) + '</span>' + (tx('pied.26', L) ? '<a class="ext" href="https://www.livroreclamacoes.pt/Inicio/" rel="noopener" target="_blank">' + esc(tx('pied.26', L)) + '</a>' : '') + reg.filter(function (p) { return p.kind === 'legal'; }).map(function (p) { return '<a href="' + href(pg, L, p) + '">' + esc(name(p, L)) + '</a>'; }).join('') + '</span></div>\n</div>\n</footer>\n' +
         '<div class="m-bar" id="mBar"><a class="btn btn-ghost" href="' + (L === 'pt' ? 'tel:+351219672216' : 'tel:+33188326449') + '">' + esc(tx('divers.03', L)) + '</a><a class="btn btn-gold" href="' + href(pg, L, 'home', L, '#devis') + '">' + esc(tx('divers.04', L)) + '</a></div>\n';
     }
 
@@ -313,7 +313,7 @@
         if (pg.id === 'faq') faqs = (D.faq || []).concat(faqs);
         if (d.familles_conseillees && d.familles_conseillees.length) body += cards(pg, L, d.familles_conseillees.map(function (id) { return byId['famille:' + id] || byId['gamme:' + id]; }), lb('materiaux_conseilles', L));
       }
-      body += faqHtml(faqs, L, pg.id === 'faq' ? tr(d.h1, L) : '') + related(pg, L) + ctaBand(pg, L);
+      if (pg.kind !== 'legal') body += faqHtml(faqs, L, pg.id === 'faq' ? tr(d.h1, L) : '') + related(pg, L) + ctaBand(pg, L);
       var u = url(pg, L);
       var ogImg = absImg(bg) || SITE + '/images/site/logo-cb.png';
       ld.push({ '@type': 'WebPage', '@id': u + '#page', url: u, name: title, description: meta, inLanguage: { fr: 'fr-FR', en: 'en-GB', pt: 'pt-PT' }[L], isPartOf: { '@id': SITE + '/#site' }, about: { '@id': SITE + '/#org' }, breadcrumb: { '@id': u + '#crumbs' }, primaryImageOfPage: ogImg });

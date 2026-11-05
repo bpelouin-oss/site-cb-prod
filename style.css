@@ -587,3 +587,7 @@ section{position:relative}
 .ft-seo a:hover{color:#fff}
 @media (max-width:900px){.ft-seo{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.ft-seo{grid-template-columns:1fr}}
+.hp{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}
+.done-box.sent svg{stroke:var(--gold,#B08D57)}
+.form-nav small a,.ct-form small a{color:inherit;text-decoration:underline}
+.ft-legal a+a{margin-left:0}

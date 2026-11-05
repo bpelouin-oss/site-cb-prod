@@ -306,14 +306,27 @@ function checkField(el){
   const err=document.getElementById('err-'+el.id);if(err)err.textContent=msg;
   return !msg;
 }
-function serialize(f){
+function fieldsOf(f){
   const out=[],seen=new Set();
   $$('input,select,textarea',f).forEach(el=>{
+    if(el.name==='site_web')return;
     if(el.type==='radio'){if(!el.checked||seen.has(el.name))return;seen.add(el.name);}
-    const v=(el.value||'').trim();if(v)out.push(el.name+(LANG==='fr'?' : ':': ')+v);
+    const v=(el.value||'').trim();if(v)out.push([el.name,v]);
   });
-  return out.join('\n');
+  return out;
 }
+function serialize(f){return fieldsOf(f).map(c=>c[0]+(LANG==='fr'?' : ':': ')+c[1]).join('\n');}
+/* Envoi direct par le serveur (envoyer.php). En cas d'échec (site ouvert sur l'ordinateur, serveur indisponible), on repasse par la messagerie du visiteur. */
+const T0=Date.now();
+async function sendServer(type,f,subj,who){
+  if(location.protocol==='file:'||!window.fetch)return false;
+  const hp=$('input[name="site_web"]',f);
+  try{const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),15000);
+    const r=await fetch(ROOT+'envoyer.php',{method:'POST',headers:{'Content-Type':'application/json'},signal:ctl.signal,
+      body:JSON.stringify({type,lang:LANG,sujet:subj,email:who.email,nom:who.nom||'',prenom:who.prenom||'',champs:fieldsOf(f),site_web:hp?hp.value:'',duree:Date.now()-T0})});
+    clearTimeout(to);if(!r.ok)return false;const j=await r.json();return !!(j&&j.ok);}catch(_){return false;}
+}
+function busy(btn,on){if(!btn)return;if(on){btn.dataset.lbl=btn.innerHTML;btn.textContent=T.sending||'…';btn.disabled=true;}else{if(btn.dataset.lbl)btn.innerHTML=btn.dataset.lbl;btn.disabled=false;}}
 function mailto(subject,body){return 'mailto:'+MAIL_TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
 /* Plan B quand aucune messagerie ne s'ouvre (webmail) */
 function gmail(subject,body){return 'https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(MAIL_TO)+'&su='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
@@ -345,13 +358,17 @@ $('#dvNext').addEventListener('click',()=>{if(dvValid(dvStep))dvGo(dvStep+1,true
 $('#dvPrev').addEventListener('click',()=>dvGo(dvStep-1,true));
 $('#typeGroup').addEventListener('change',()=>$('#err-type').textContent='');
 dvForm.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.tagName==='INPUT'&&dvStep<DVN){e.preventDefault();$('#dvNext').click();}});
-dvForm.addEventListener('submit',e=>{
+dvForm.addEventListener('submit',async e=>{
   e.preventDefault();
   for(let n=1;n<=DVN;n++){if(!dvValid(n)){dvGo(n);dvValid(n);notify(T.missingT,T.missingM);return;}}
   const subj=T.quoteSubj+($('#d-mat').value||T.project)+' · '+$('#d-prenom').value.trim()+' '+$('#d-nom').value.trim();
   const body=serialize(dvForm)+'\n\n'+T.sentFrom;
   const href=mailto(subj,body);
   $('#dvRecap').textContent=body;$('#dvMailAgain').href=href;
+  busy($('#dvSend'),true);
+  const sent=await sendServer('devis',dvForm,subj,{email:$('#d-email').value.trim(),nom:$('#d-nom').value.trim(),prenom:$('#d-prenom').value.trim()});
+  busy($('#dvSend'),false);
+  if(sent){const box=$('.step[data-step="4"]',dvForm);box.classList.add('sent');$('h3',box).textContent=T.sentT;$('p',box).textContent=T.sentQuote;$('.btn-row',box).hidden=true;dvGo(4,true);return;}
   const g=$('#dvGmail'),o=$('#dvOutlook');if(g)g.href=gmail(subj,body);if(o)o.href=outlook(subj,body);
   dvGo(4,true);
   location.href=href;
@@ -361,12 +378,16 @@ $$('input,select,textarea').forEach(el=>el.addEventListener('input',()=>{if(el.g
 $$('input[required],textarea[required],select[required]').forEach(el=>el.addEventListener('blur',()=>{if(el.value)checkField(el);}));
 
 /* Contact rapide */
-$('#contactForm').addEventListener('submit',e=>{
+$('#contactForm').addEventListener('submit',async e=>{
   e.preventDefault();const f=e.currentTarget;let first=null;
   $$('[required]',f).forEach(el=>{if(!checkField(el)&&!first)first=el;});
   if(first){first.focus();notify(T.missingT,T.missingM);return;}
   const subj=$('#c-sujet').value.trim()||T.msgSubj,body=serialize(f)+'\n\n'+T.sentFrom,href=mailto(subj,body);
   const done=$('#ctDone');
+  const sb=$('button[type=submit]',f);busy(sb,true);
+  const sent=await sendServer('contact',f,subj,{email:$('#c-email').value.trim(),nom:$('#c-nom').value.trim()});
+  busy(sb,false);
+  if(sent&&done){done.classList.add('sent');$('h3',done).textContent=T.sentT2;$('p',done).textContent=T.sentContact;$('.btn-row',done).hidden=true;$('#ctRecap').textContent=body;done.hidden=false;done.focus({preventScroll:true});done.scrollIntoView({behavior:REDUCE?'auto':'smooth',block:'nearest'});f.querySelectorAll('input,textarea').forEach(x=>{if(x.name!=='site_web')x.value='';});return;}
   if(done){$('#ctRecap').textContent=body;$('#ctMailAgain').href=href;$('#ctGmail').href=gmail(subj,body);$('#ctOutlook').href=outlook(subj,body);done.hidden=false;done.focus({preventScroll:true});done.scrollIntoView({behavior:REDUCE?'auto':'smooth',block:'nearest'});}
   location.href=href;
   if(!done)notify(T.mailOpenT,T.mailOpenContact);
