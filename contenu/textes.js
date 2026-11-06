@@ -124,9 +124,9 @@ CB.textes = {
   "pt": "3"
  },
  "chiffres.03": {
-  "fr": "Générations de savoir-faire",
-  "en": "Generations of craftsmanship",
-  "pt": "Gerações de saber-fazer"
+  "fr": "Générations de savoir-faire familial",
+  "en": "Generations of family craftsmanship",
+  "pt": "Gerações de saber-fazer familiar"
  },
  "chiffres.04": {
   "fr": "Familles de matériaux",
@@ -589,9 +589,9 @@ CB.textes = {
   "pt": "A precisão industrial ao serviço do *artesanato*"
  },
  "usine.05": {
-  "fr": "Héritière d'un savoir-faire familial transmis depuis plus de trois générations, notre usine de Mafra est le cœur de notre activité. C'est ici que naissent, dans le souci du détail, tous nos plans de travail, vasques intégrées, crédences et habillages muraux.",
-  "en": "Built on family craftsmanship handed down over more than three generations, our Mafra factory is at the heart of everything we do. This is where all our worktops, integrated basins, splashbacks and wall cladding come to life, with meticulous attention to detail.",
-  "pt": "Herdeira de um saber-fazer familiar transmitido há mais de três gerações, a nossa fábrica em Mafra é o coração da nossa atividade. É aqui que nascem, com atenção a cada pormenor, todas as nossas bancadas, lavatórios integrados, frentes de cozinha e revestimentos de parede."
+  "fr": "Portée par le savoir-faire familial du groupe, transmis depuis plus de trois générations, notre usine de Mafra est le cœur de notre activité. C'est ici que naissent, dans le souci du détail, tous nos plans de travail, vasques intégrées, crédences et habillages muraux.",
+  "en": "Backed by the group's family craftsmanship, handed down over more than three generations, our Mafra factory is at the heart of everything we do. This is where all our worktops, integrated basins, splashbacks and wall cladding come to life, with meticulous attention to detail.",
+  "pt": "Apoiada no saber-fazer familiar do grupo, transmitido há mais de três gerações, a nossa fábrica em Mafra é o coração da nossa atividade. É aqui que nascem, com atenção a cada pormenor, todas as nossas bancadas, lavatórios integrados, frentes de cozinha e revestimentos de parede."
  },
  "usine.06": {
   "fr": "Notre outil industriel combine découpe numérique CNC et savoir-faire artisanal : les deux sont indissociables pour atteindre le niveau de qualité que nos clients exigent.",
