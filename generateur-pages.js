@@ -259,8 +259,8 @@
       if (ph.length) h += gallery(L, ph.map(function (p) { return { image: p.image, t: strip(tr(p.titre, L)), d: strip(tr(p.legende, L)) }; }), lb(g.photos_sont_des_realisations ? 'nos_realisations' : 'ambiances', L));
       return h;
     }
-    function gallery(L, items, title) {
-      return '<section class="sec pg-sec" style="background:var(--cream2)"><div class="wrap">' + (title ? '<h2 class="h3">' + esc(title) + '</h2>' : '') + '<ul class="pg-gal">' +
+    function gallery(L, items, title, cls) {
+      return '<section class="sec pg-sec" style="background:var(--cream2)"><div class="wrap">' + (title ? '<h2 class="h3">' + esc(title) + '</h2>' : '') + '<ul class="pg-gal' + (cls ? ' ' + cls : '') + '">' +
         items.map(function (p) { return '<li><figure><img src="' + esc(img(p.image, L)) + '" alt="' + esc([p.t, p.d].filter(Boolean).join(', ')) + '" loading="lazy" decoding="async"><figcaption>' + (p.t ? '<b>' + esc(p.t) + '</b>' : '') + (p.d ? '<span>' + esc(p.d) + '</span>' : '') + '</figcaption></figure></li>'; }).join('') + '</ul></div></section>\n';
     }
     function blocRealisations(pg, L) {
@@ -307,6 +307,8 @@
         body += cards(pg, L, tops, lb('familles_titre', L)) + sections(d, L);
       } else {
         body += sections(d, L);
+        var pp = (d.photos || []).filter(function (p) { return p.image; });
+        if (pp.length) body += gallery(L, pp.map(function (p) { return { image: p.image, t: '', d: strip(tr(p.legende, L)) }; }), lb('en_images', L), 'pg-gal-v');
         if (pg.id === 'realisations') body += blocRealisations(pg, L);
         if (pg.id === 'guide') body += blocGuide(pg, L);
         if (pg.id === 'contact') body += blocContact(pg, L);

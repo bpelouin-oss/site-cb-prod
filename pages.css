@@ -83,3 +83,6 @@
 @media (max-width:900px){.pg-grid2{grid-template-columns:1fr}.ft-seo{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.ft-seo{grid-template-columns:1fr}.pg-colors{grid-template-columns:repeat(2,minmax(0,1fr))}.pg-h1{max-width:none}.pg-hero .btn{width:100%}.pg .ft-top{grid-template-columns:1fr}}
 .pg-sw img,.pg-card-ph img,.pg-gal img{color:transparent;font-size:0}
+.pg-gal-v{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:640px){.pg-gal-v{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}}
+.pg-gal-v img{aspect-ratio:3/4}

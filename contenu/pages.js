@@ -218,6 +218,11 @@ CB.pages = {
    "fr": "Informations légales",
    "en": "Legal information",
    "pt": "Informação legal"
+  },
+  "en_images": {
+   "fr": "L'atelier en images",
+   "en": "The workshop in pictures",
+   "pt": "A oficina em imagens"
   }
  },
  "hub": {
@@ -3459,6 +3464,57 @@ CB.pages = {
       "pt": "Não. A CB Prod trabalha exclusivamente na fabricação por medida e na entrega. As dimensões são tiradas por si ou pelos seus parceiros, e a colocação das peças fica a seu cargo. Esta organização deixa-lhe o pleno controlo da obra e do cliente, enquanto nós garantimos peças conformes aos desenhos validados."
      }
     }
+   ],
+   "image": "images/usine/bandeau-faconnage.webp",
+   "photos": [
+    {
+     "image": "images/usine/decoupe-cnc-eau.webp",
+     "legende": {
+      "fr": "Découpe CNC sous eau",
+      "en": "CNC cutting under water",
+      "pt": "Corte CNC com água"
+     }
+    },
+    {
+     "image": "images/usine/scie-pont-cnc.webp",
+     "legende": {
+      "fr": "Scie à pont",
+      "en": "Bridge saw",
+      "pt": "Serra de ponte"
+     }
+    },
+    {
+     "image": "images/usine/polissage-chant.webp",
+     "legende": {
+      "fr": "Polissage d'un chant",
+      "en": "Polishing an edge",
+      "pt": "Polimento de um rebordo"
+     }
+    },
+    {
+     "image": "images/usine/finition-main.webp",
+     "legende": {
+      "fr": "Finition à la main",
+      "en": "Hand finishing",
+      "pt": "Acabamento à mão"
+     }
+    },
+    {
+     "image": "images/usine/reprise-chants.webp",
+     "legende": {
+      "fr": "Reprise des chants",
+      "en": "Edge refinishing",
+      "pt": "Afinação dos rebordos"
+     }
+    },
+    {
+     "image": "images/usine/artisan-polissage.webp",
+     "legende": {
+      "fr": "Ponçage avant contrôle",
+      "en": "Sanding before inspection",
+      "pt": "Lixagem antes do controlo"
+     }
+    }
    ]
   },
   {
@@ -3908,6 +3964,57 @@ CB.pages = {
       "pt": "Trabalhamos as pedras naturais, granito, mármore e quartzito, incluindo as versões tratadas Sensa e Texta, bem como os quartzos Silestone®, Compac, Stone Italiana e MStone, as cerâmicas Dekton®, The Size, Materia, Infinity e MStone, o Corian®, o Minéralis e as pedras recicladas. Podemos também selecionar e comprar o material por si."
      }
     }
+   ],
+   "image": "images/usine/bandeau-usine.webp",
+   "photos": [
+    {
+     "image": "images/usine/stock-dalles-pierre.webp",
+     "legende": {
+      "fr": "Le stock de dalles",
+      "en": "Our slab stock",
+      "pt": "O stock de chapas"
+     }
+    },
+    {
+     "image": "images/usine/atelier-mafra.webp",
+     "legende": {
+      "fr": "L'atelier de Mafra",
+      "en": "The Mafra workshop",
+      "pt": "A oficina de Mafra"
+     }
+    },
+    {
+     "image": "images/usine/dalle-pont-roulant.webp",
+     "legende": {
+      "fr": "Dalle sur le pont roulant",
+      "en": "A slab on the overhead crane",
+      "pt": "Chapa na ponte rolante"
+     }
+    },
+    {
+     "image": "images/usine/pilotage-cnc.webp",
+     "legende": {
+      "fr": "Pilotage de la commande numérique",
+      "en": "Running the CNC machine",
+      "pt": "Comando da máquina CNC"
+     }
+    },
+    {
+     "image": "images/usine/controle-piece.webp",
+     "legende": {
+      "fr": "Contrôle d'une pièce sur plan",
+      "en": "Checking a piece against the drawing",
+      "pt": "Controlo de uma peça face ao desenho"
+     }
+    },
+    {
+     "image": "images/usine/allee-dalles-quartz.webp",
+     "legende": {
+      "fr": "Choix des dalles pour un projet",
+      "en": "Selecting slabs for a project",
+      "pt": "Escolha das chapas para um projeto"
+     }
+    }
    ]
   },
   {
@@ -4033,6 +4140,33 @@ CB.pages = {
       "fr": "Bien sûr. Nous accueillons les professionnels accompagnés de leurs clients à Igreja Nova, du lundi au vendredi de 8h00 à 17h30, sur rendez-vous. C'est souvent le meilleur moyen de valider ensemble une dalle de pierre naturelle, un coloris ou une finition, et de lever les dernières hésitations avant de lancer la fabrication.",
       "en": "Of course. We welcome trade customers and their clients to Igreja Nova, Monday to Friday from 8.00am to 5.30pm, by appointment. It is often the best way to approve a natural stone slab, a colour or a finish together, and to clear up any last doubts before production begins.",
       "pt": "Com certeza. Recebemos os profissionais acompanhados dos seus clientes em Igreja Nova, de segunda a sexta-feira, das 8h00 às 17h30, por marcação. É muitas vezes a melhor forma de validarem juntos uma chapa de pedra natural, uma cor ou um acabamento, e de esclarecerem as últimas dúvidas antes de lançar a fabricação."
+     }
+    }
+   ],
+   "image": "images/usine/bandeau-professionnels.webp",
+   "photos": [
+    {
+     "image": "images/usine/equipe-atelier.webp",
+     "legende": {
+      "fr": "L'équipe de l'atelier",
+      "en": "The workshop team",
+      "pt": "A equipa da oficina"
+     }
+    },
+    {
+     "image": "images/usine/transport-piece-quartz.webp",
+     "legende": {
+      "fr": "Transport d'une pièce finie",
+      "en": "Moving a finished piece",
+      "pt": "Transporte de uma peça acabada"
+     }
+    },
+    {
+     "image": "images/usine/lecture-plan-machine.webp",
+     "legende": {
+      "fr": "Lecture du plan avant découpe",
+      "en": "Reading the drawing before cutting",
+      "pt": "Leitura do desenho antes do corte"
      }
     }
    ]
@@ -4444,6 +4578,33 @@ CB.pages = {
       "fr": "Nous travaillons avec les formats courants des bureaux d'études et des logiciels de cuisine, par exemple DXF, DWG ou PDF coté. Un plan coté clair, même simple, permet une première étude. Si vous utilisez un autre format, envoyez-le : nous vous dirons s'il est exploitable ou s'il faut l'exporter autrement avant de lancer le chiffrage.",
       "en": "We work with the common formats used by design offices and kitchen design software, for example DXF, DWG or dimensioned PDF. A clear dimensioned drawing, even a simple one, is enough for an initial study. If you use another format, send it anyway: we will tell you whether we can use it or whether it needs exporting differently before pricing.",
       "pt": "Trabalhamos com os formatos habituais dos gabinetes técnicos e dos programas de desenho de cozinhas, por exemplo DXF, DWG ou PDF cotado. Um desenho cotado claro, mesmo simples, chega para um primeiro estudo. Se usar outro formato, envie-o na mesma: dizemos-lhe se o conseguimos utilizar ou se é preciso exportá-lo de outra forma antes de orçamentar."
+     }
+    }
+   ],
+   "image": "images/usine/bandeau-devis.webp",
+   "photos": [
+    {
+     "image": "images/usine/bureau-technique.webp",
+     "legende": {
+      "fr": "Étude des plans au bureau technique",
+      "en": "Studying drawings in the technical office",
+      "pt": "Estudo dos desenhos no gabinete técnico"
+     }
+    },
+    {
+     "image": "images/usine/accueil-bureau.webp",
+     "legende": {
+      "fr": "Le bureau, à l'entrée de l'usine",
+      "en": "The office at the factory entrance",
+      "pt": "O escritório à entrada da fábrica"
+     }
+    },
+    {
+     "image": "images/usine/lecture-plan-machine.webp",
+     "legende": {
+      "fr": "Lecture du plan avant découpe",
+      "en": "Reading the drawing before cutting",
+      "pt": "Leitura do desenho antes do corte"
      }
     }
    ]
