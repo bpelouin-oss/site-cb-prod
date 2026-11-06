@@ -55,6 +55,253 @@ CB.realisations = {
  "photos": [
   {
    "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-1.webp",
+   "legende": {
+    "fr": "Îlot monolithe, crédence en niche et sol en marbre assortis",
+    "en": "Monolithic island with matching niche splashback and marble floor",
+    "pt": "Ilha monolítica, frente em nicho e chão em mármore a condizer"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-2.webp",
+   "legende": {
+    "fr": "Évier taillé dans la masse, plan et crédence assortis",
+    "en": "Sink carved from the solid stone, matching worktop and splashback",
+    "pt": "Lava-loiça talhado no bloco, bancada e frente a condizer"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-3.webp",
+   "legende": {
+    "fr": "Îlot à chant épais et niche habillée de marbre",
+    "en": "Thick-edged island and marble-clad niche",
+    "pt": "Ilha de bordo espesso e nicho revestido a mármore"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-4.webp",
+   "legende": {
+    "fr": "Évier sculpté et crédence en marbre d'un seul tenant",
+    "en": "Sculpted sink and one-piece marble splashback",
+    "pt": "Lava-loiça esculpido e frente em mármore numa só peça"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-5.webp",
+   "legende": {
+    "fr": "Niche éclairée habillée de marbre, évier intégré",
+    "en": "Lit marble-clad niche with integrated sink",
+    "pt": "Nicho iluminado revestido a mármore, lava-loiça integrado"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-7.webp",
+   "legende": {
+    "fr": "Angle en coupe d'onglet, détail de finition",
+    "en": "Mitred corner, finishing detail",
+    "pt": "Canto em meia-esquadria, pormenor de acabamento"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-8.webp",
+   "legende": {
+    "fr": "Chant poli et insert de sol en marbre",
+    "en": "Polished edge and marble floor insert",
+    "pt": "Bordo polido e inserção de mármore no chão"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-9.webp",
+   "legende": {
+    "fr": "Insert de marbre découpé en pointe dans le parquet",
+    "en": "Pointed marble insert cut into the parquet",
+    "pt": "Inserção de mármore em ponta no parquet"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-1.webp",
+   "legende": {
+    "fr": "Îlot à retombée en cascade, façades en chêne",
+    "en": "Waterfall island with oak fronts",
+    "pt": "Ilha com queda em cascata, frentes em carvalho"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-2.webp",
+   "legende": {
+    "fr": "Grande cuisine ouverte, îlot et colonnes en chêne",
+    "en": "Large open kitchen, island and oak tall units",
+    "pt": "Grande cozinha aberta, ilha e colunas em carvalho"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-3.webp",
+   "legende": {
+    "fr": "Plan et îlot face à face, chants en retour",
+    "en": "Facing worktop and island with returned edges",
+    "pt": "Bancada e ilha frente a frente, bordos em retorno"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-4.webp",
+   "legende": {
+    "fr": "Plan blanc veiné avec cuisson intégrée",
+    "en": "White veined worktop with integrated hob",
+    "pt": "Bancada branca raiada com placa integrada"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-5.webp",
+   "legende": {
+    "fr": "Retour de plan en façade d'îlot, mur en pierre",
+    "en": "Worktop returning down the island front, stone wall",
+    "pt": "Bancada em retorno na frente da ilha, parede em pedra"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
+   }
+  },
+  {
+   "categorie": "cuisines",
    "image": "images/realisations/plans-de-travail-realisation-cuisine-reference-a-venir-1.webp",
    "legende": {
     "fr": "Îlot aux angles arrondis prolongé en table, crédence assortie",
@@ -279,6 +526,25 @@ CB.realisations = {
     "fr": "",
     "en": "",
     "pt": ""
+   }
+  },
+  {
+   "categorie": "salles-de-bains",
+   "image": "images/realisations/plans-de-travail-realisation-salle-de-bain-vasque-marbre-blanc-1.webp",
+   "legende": {
+    "fr": "Vasque monobloc en marbre blanc veiné",
+    "en": "Monobloc basin in veined white marble",
+    "pt": "Lavatório monobloco em mármore branco raiado"
+   },
+   "materiau": {
+    "fr": "Marbre blanc veiné",
+    "en": "Veined white marble",
+    "pt": "Mármore branco raiado"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
    }
   },
   {
@@ -813,6 +1079,44 @@ CB.realisations = {
     "fr": "Marbre",
     "en": "Marble",
     "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-marbre-fior-di-bosco-1.webp",
+   "legende": {
+    "fr": "Îlot monolithe, crédence en niche et sol en marbre assortis",
+    "en": "Monolithic island with matching niche splashback and marble floor",
+    "pt": "Ilha monolítica, frente em nicho e chão em mármore a condizer"
+   },
+   "materiau": {
+    "fr": "Marbre Fior di Bosco",
+    "en": "Fior di Bosco marble",
+    "pt": "Mármore Fior di Bosco"
+   },
+   "famille": {
+    "fr": "Marbre",
+    "en": "Marble",
+    "pt": "Mármore"
+   }
+  },
+  {
+   "categorie": "cuisines",
+   "image": "images/realisations/plans-de-travail-realisation-cuisine-blanc-veine-chene-1.webp",
+   "legende": {
+    "fr": "Îlot à retombée en cascade, façades en chêne",
+    "en": "Waterfall island with oak fronts",
+    "pt": "Ilha com queda em cascata, frentes em carvalho"
+   },
+   "materiau": {
+    "fr": "Plan de travail blanc veiné",
+    "en": "White veined worktop",
+    "pt": "Bancada branca raiada"
+   },
+   "famille": {
+    "fr": "",
+    "en": "",
+    "pt": ""
    }
   },
   {
